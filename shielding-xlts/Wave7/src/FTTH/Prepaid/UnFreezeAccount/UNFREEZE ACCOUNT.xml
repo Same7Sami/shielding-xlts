@@ -1,0 +1,24 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>FTTH_UNFREEZE</FuncId>
+		<SecurityKey/>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20130309121554</SrDate>
+		<RequestorUserId>AHANI</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ChannelTransId>BSL_20130309121554</ChannelTransId>
+	<AccountNumber>1000116740155158</AccountNumber>
+	<CPENumber>21070000950935</CPENumber>
+	<OldCPENumber/>
+	<!-- if not null take it -->
+	<Duration/>
+	<OldCPESerialNumber/>
+	<NewCPESerialNumber/>
+	<Bandwidth>25 MB</Bandwidth>
+	<ExpiryDate>20130609023737</ExpiryDate>
+</MOBILY_BSL_SR>

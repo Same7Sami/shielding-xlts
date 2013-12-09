@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>02138007531000001</requestID>
+		<DWLControl>
+			<requesterName>FirstCall</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<AgreementStatusType>5</AgreementStatusType>
+						<LastVerifiedDate>2013-02-25 09:50:31.000000</LastVerifiedDate>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<NetworkStatusType>1</NetworkStatusType>
+								<ChargingStatusType>1</ChargingStatusType>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>7</ContractStatusType>
+						</TCRMContractComponentBObj>
+					</TCRMContractBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966540700199</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

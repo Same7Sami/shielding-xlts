@@ -1,0 +1,26 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>GPRS_ADD</FuncId>
+		<SecurityKey>kjasdhfjk48938jkdhf</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20121215201651</SrDate>
+		<RequestorUserId>s.ali</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>100.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_4966460751</ServiceRequestId>
+	<MSISDN>966546654457</MSISDN>
+	<CustomerType>1</CustomerType>
+	<SupplementaryService>GPRS</SupplementaryService>
+	<OldPackageType>CON_5GB</OldPackageType>
+	<PackageType>1GB</PackageType>
+	<GPRSPackageId>1448</GPRSPackageId>
+	<Operation>GPRS_REPLACE</Operation>
+	<SubscriptionType>monthly</SubscriptionType>
+	<PromotionName>null</PromotionName>
+	<GPRSValue>4</GPRSValue>
+	<OldGPRSValue>5</OldGPRSValue>
+</MOBILY_BSL_SR>

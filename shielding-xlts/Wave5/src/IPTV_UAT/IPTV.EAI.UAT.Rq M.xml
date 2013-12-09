@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+    <SR_HEADER>
+        <FuncId>ELIFE_UAT</FuncId>
+        <RequestorChannelId>SIEBEL</RequestorChannelId>
+        <OrderDate>20120306114552</OrderDate>
+        <RequestorUserId>QAUSER</RequestorUserId>
+        <RequestorLanguage>A</RequestorLanguage>
+        <DealerId>111111</DealerId>
+        <ShopId>111111</ShopId>
+        <AgentId>QAUSER</AgentId>
+        <OrderCreationDate>20120306114552</OrderCreationDate>
+        <OrderSubmitDate>20120306120532</OrderSubmitDate>
+        <OrderNumber>121212323232323</OrderNumber>
+        <OrderSubType>IPTV_PASSWORD_RESET</OrderSubType>
+        <OrderId>1-4ULZF1Y</OrderId>
+    </SR_HEADER>
+    <orderServiceAccount>
+        <IsNew>0</IsNew>
+        <BillingAccountNumber>1000110558131972</BillingAccountNumber>
+        <ServiceAccountNumber>1000110558131972</ServiceAccountNumber>
+        <PackageID>3434</PackageID>
+        <PackageName>eLife Media</PackageName>
+        <BillCycle>1</BillCycle>
+        <BillFrequency>Monthly</BillFrequency>
+        <InvoiceComments/>
+        <InvoiceTemplate>Individual</InvoiceTemplate>
+        <LanguagePreference>English</LanguagePreference>
+        <PayType>Postpaid</PayType>
+        <MediaType>Email</MediaType>
+        <Currency>SAR</Currency>
+    </orderServiceAccount>
+    <orderLineItem>
+       <currentAttributes>
+            <attribute>
+                <name>ServiceStartDate</name>
+                <value>20120317000000</value>
+            </attribute>
+            <attribute>
+                <name>ActivationOrderNumber</name>
+                <value>121212323232323</value>
+            </attribute>
+        </currentAttributes>
+    </orderLineItem>
+</MOBILY_BSL_SR>

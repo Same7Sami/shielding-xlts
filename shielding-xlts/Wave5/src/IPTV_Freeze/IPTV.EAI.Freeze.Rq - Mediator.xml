@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+    <SR_HEADER>
+		<ServiceRequestId>SR_xxxxxxxxxxx</ServiceRequestId>
+        <FuncId>ELIFE_IPTV_FREEZE</FuncId>
+        <RequestorChannelId>SIEBEL</RequestorChannelId>
+        <OrderDate>20120306114552</OrderDate>
+        <RequestorUserId>QAUSER</RequestorUserId>
+        <RequestorLanguage>A</RequestorLanguage>
+        <DealerId>111111</DealerId>
+        <ShopId>111111</ShopId>
+        <AgentId>QAUSER</AgentId>
+        <OrderCreationDate>20120306114552</OrderCreationDate>
+        <OrderSubmitDate>20120306120532</OrderSubmitDate>
+        <OrderNumber>121212323232323</OrderNumber>
+        <OrderId>1-7I7CUVO</OrderId>
+    </SR_HEADER>
+    <orderContact>
+        <Title>Mr.</Title>
+        <FullName>QATEST ELIFE INTERNET STAFF OFFER FAZ 6MAR1201</FullName>
+        <FirstName>QATEST ELIFE</FirstName>
+        <MiddleName>INTERNET STAFF OFFER</MiddleName>
+        <LastName>FAZ 6MAR1201</LastName>
+        <Name>QATEST ELIFE INTERNET STAFF OFFER FAZ 6MAR1201</Name>
+        <JobTitle/>
+        <Nationality>India</Nationality>
+        <BirthDate>01/20/1978</BirthDate>
+        <HijriDate>10/02/1398</HijriDate>
+        <Occupation/>
+        <Company></Company>
+        <EmailAddress>m.fazlur.mit@mobilyinfotech.com</EmailAddress>
+        <Phone/>
+        <MobilePhone>+966540510249</MobilePhone>
+        <Fax/>
+        <Gender>M</Gender>
+        <DocIdNumber>FAZ 6MAR1201</DocIdNumber>
+        <DocIdType>Mobily Employee ID</DocIdType>
+        <DocIdExpDate>12/30/2018 21:00:00</DocIdExpDate>
+    </orderContact>
+    <orderBillingAddressInfo>
+        <StreetAddress>SDFB SDGSDF JHGHDF45644</StreetAddress>
+        <City>Riyadh</City>
+        <PostalCode>00508</PostalCode>
+        <POBox>25810</POBox>
+        <Country>Saudi Arabia</Country>
+        <WaselInfo>
+            <IsWaselCusomter>N</IsWaselCusomter>
+            <PostalCode>00508</PostalCode>
+            <ExtendedNumber/>
+            <PostNum/>
+        </WaselInfo>
+    </orderBillingAddressInfo>
+    <orderServiceAccount>
+        <IsNew>0</IsNew>
+        <BillingAccountNumber>1000110558131972</BillingAccountNumber>
+        <ServiceAccountNumber>1000110558131972</ServiceAccountNumber>
+        <ServiceAccountId>1-7I7CV21</ServiceAccountId>
+        <PackageID>3434</PackageID>
+        <PackageName>eLife Media</PackageName>
+        <BillCycle>1</BillCycle>
+        <BillFrequency>Monthly</BillFrequency>
+        <InvoiceComments/>
+        <InvoiceTemplate>Individual</InvoiceTemplate>
+        <LanguagePreference>English</LanguagePreference>
+        <PayType>Postpaid</PayType>
+        <MediaType>Email</MediaType>
+        <Currency>SAR</Currency>
+    </orderServiceAccount>
+    <orderLineItem>
+        <id>1</id>
+        <actionCode>SUSPEND</actionCode>
+        <productName>FTTH</productName>
+        <productType>Service</productType>
+        <oldAttributes/>
+        <currentAttributes>
+            <attribute>
+                <name>bandwidth</name>
+                <value>25</value>
+            </attribute>
+            <attribute>
+                <name>LoginId</name>
+                <value>ABC</value>
+            </attribute>
+            <attribute>
+                <name>Domain</name>
+                <value>ABC</value>
+            </attribute>
+        </currentAttributes>
+        <orderLineItem>
+            <id>11</id>
+            <actionCode>NOACTION</actionCode>
+            <productName>CPE</productName>
+            <productType>Device</productType>
+            <oldAttributes/>
+            <currentAttributes>
+                <attribute>
+                    <name>MAC</name>
+                    <value>0024D701E869</value>
+                </attribute>
+                <attribute>
+                    <name>SN</name>
+                    <value>ABC</value>
+                </attribute>
+                <attribute>
+                    <name>DCN</name>
+                    <value>ABC</value>
+                </attribute>
+            </currentAttributes>
+        </orderLineItem>
+    </orderLineItem>
+    <orderLineItem>
+        <id>2</id>
+        <actionCode>SUSPEND</actionCode>
+        <productName>IPTV</productName>
+        <productType>Service</productType>
+        <oldAttributes/>
+        <currentAttributes>
+            <attribute>
+                <name>PackageId</name>
+                <value>1234</value>
+            </attribute>
+            <attribute>
+                <name>PackageName</name>
+                <value>Starter</value>
+            </attribute>
+            <attribute>
+                <name>ServiceNumber</name>
+                <value>ABC123</value>
+            </attribute>
+        </currentAttributes>
+        <orderLineItem>
+            <id>21</id>
+            <actionCode>NOACTION</actionCode>
+            <productName>STB</productName>
+            <productType>Device</productType>
+            <oldAttributes/>
+            <currntAttributes>
+                <attribute>
+                    <name>MAC</name>
+                    <value>0024D701E869</value>
+                </attribute>
+                <attribute>
+                    <name>SN</name>
+                    <value>ABC</value>
+                </attribute>
+                <attribute>
+                    <name>Ordinal</name>
+                    <value>1 | 2 | 3</value>
+                </attribute>
+            </currntAttributes>
+        </orderLineItem>
+        <orderLineItem>
+            <id>22</id>
+            <actionCode>NOACTION</actionCode>
+            <productName>Channels</productName>
+            <productType>Feature</productType>
+            <oldAttribues/>
+            <currentAttributes>
+                <attribute>
+                    <name>PackageId</name>
+                    <value>123</value>
+                </attribute>
+                <attribute>
+                    <name>PackageName</name>
+                    <value>Al Jazeera Arabic</value>
+                </attribute>
+            </currentAttributes>
+        </orderLineItem>
+    </orderLineItem>
+</MOBILY_BSL_SR>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>20120306114552</requestID>
+		<DWLControl>
+			<requesterName>IPTVSTBSwap</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<DeviceSerialNumber>ABC2</DeviceSerialNumber>
+								<CPEMacAddress>0064B701F899</CPEMacAddress>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>ABC123</AdminContractId>
+							<AdminFieldNameType>10</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

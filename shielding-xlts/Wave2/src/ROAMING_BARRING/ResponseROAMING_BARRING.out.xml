@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mobilyResponse.xsd">
+	<ResponseControl>
+		<ResultCode>SUCCESS</ResultCode>
+		<ServiceTime>2172</ServiceTime>
+		<DWLControl>
+			<clientSystemName>Mediator</clientSystemName>
+			<requesterLanguage>100</requesterLanguage>
+			<requesterLocale>en</requesterLocale>
+			<requesterName>113</requesterName>
+			<requestID>3312549326</requestID>
+			<requestTime>2011-10-01 00:16:36.000000</requestTime>
+		</DWLControl>
+	</ResponseControl>
+	<TxResponse>
+		<RequestType>updateContractComposite</RequestType>
+		<TxResult>
+			<ResultCode>SUCCESS</ResultCode>
+		</TxResult>
+	</TxResponse>
+</TCRMService>

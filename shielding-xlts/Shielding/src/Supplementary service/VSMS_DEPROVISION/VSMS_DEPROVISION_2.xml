@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>VSMS_DEPROVISION</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<ServiceRequestId>SR_3537419577</ServiceRequestId>
+		<SrDate>20111130131215</SrDate>
+		<BackendChannel/>
+	</SR_HEADER>
+	<StatusId>1</StatusId>
+	<LineNumber>966565354252</LineNumber>
+	<FunctionName>VSMS_DEPROVISION</FunctionName>
+	<ChannelTransId>SR_3537419654_6</ChannelTransId>
+	<RequesterUserId>BSL</RequesterUserId>
+	<UserComment/>
+	<ReasonId>0</ReasonId>
+</MOBILY_BSL_SR>

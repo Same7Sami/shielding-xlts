@@ -1,0 +1,24 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>CUG_UNSUBSCRIBE</FuncId>
+		<SecurityKey>1234</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20130506102243</SrDate>
+		<RequestorUserId>CUG</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>N</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_1122236942</ServiceRequestId>
+	<MSISDN>966540512257</MSISDN>
+	<SupplementaryService>CUG</SupplementaryService>
+	<SrStatus>3</SrStatus>
+	<ChannelTransId>QAUSER_20130506132130</ChannelTransId>
+	<ErrorCode>00</ErrorCode>
+	<ErrorMessage>Succeeded</ErrorMessage>
+	<CorporateId>1-6A2MLNT</CorporateId>
+	<CUG_Id>3656</CUG_Id>
+	<ActivationType />
+</MOBILY_BSL_SR>

@@ -1,0 +1,88 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BUSINESS_DEACTIVATION</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion />
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20121209140750</SrDate>
+		<OrderCreationDate>20121107153133</OrderCreationDate>
+		<ServiceRequestId>SR_CORP_372505</ServiceRequestId>
+		<ChannelTransId />
+		<ChargeAbleFlag>false</ChargeAbleFlag>
+		<RequestorUserId>PF105431</RequestorUserId>
+		<RequestorLanguage />
+		<OverwriteOpenOrder>false</OverwriteOpenOrder>
+		<ChargeAmount>0.0</ChargeAmount>
+		<Reason>CORPORATE</Reason>
+	</SR_HEADER>
+	<Promotion />
+	<CorporateId />
+	<CugId>1468</CugId>
+	<ServiceType />
+	<BILL_CYCLE>7</BILL_CYCLE>
+	<CUG />
+	<CUG />
+	<BillCycle>7</BillCycle>
+	<SimType>0</SimType>
+	<ShopID>986300</ShopID>
+	<DealerID>986300</DealerID>
+	<AgentID>PF105431</AgentID>
+	<ParentAccountNumber>100019684867946</ParentAccountNumber>
+	<RootAccountNumber>100018516919430</RootAccountNumber>
+	<CUSTOMER_CATEGORY />
+	<DocIdNumber>1009490440</DocIdNumber>
+	<FIRST_NAME>????</FIRST_NAME>
+	<MIDDLE_NAME>????</MIDDLE_NAME>
+	<LAST_NAME>????</LAST_NAME>
+	<NATIONALITY>Saudi Arabia</NATIONALITY>
+	<BIRTH_DATE />
+	<OCCUPATION />
+	<EMAIL_ADDRESS>ibrahim.niazy@satorp.com</EMAIL_ADDRESS>
+	<GENDER>M</GENDER>
+	<DISCOUNT_TYPE>Sim</DISCOUNT_TYPE>
+	<PAY_TYPE />
+	<CustomerAccountNo />
+	<ValueSegment />
+	<Industry />
+	<Region />
+	<City>????</City>
+	<LinesInfo>
+		<Line>
+			<AccountNumber>100019684868113</AccountNumber>
+			<PricingPlan>2</PricingPlan>
+			<CUSTOMER_TYPE>2</CUSTOMER_TYPE>
+			<MSISDN />
+			<IMSI />
+			<SIM />
+			<PackageId />
+			<LineSrId>SR_CORP_372505-1</LineSrId>
+			<SubscriptionFee>0.0</SubscriptionFee>
+			<VanityType />
+			<RaqiPlus>N</RaqiPlus>
+			<IMEI />
+			<FORTINETCPE />
+			<CustomerPackage>IP VPN</CustomerPackage>
+			<Waivers />
+			<Devices />
+		</Line>
+		
+		<Line>
+			<AccountNumber>100019684868117</AccountNumber>
+			<PricingPlan>2</PricingPlan>
+			<CUSTOMER_TYPE>2</CUSTOMER_TYPE>
+			<MSISDN />
+			<IMSI />
+			<SIM />
+			<PackageId />
+			<LineSrId>SR_CORP_372505-1</LineSrId>
+			<SubscriptionFee>0.0</SubscriptionFee>
+			<VanityType />
+			<RaqiPlus>N</RaqiPlus>
+			<IMEI />
+			<FORTINETCPE />
+			<CustomerPackage>IP VPN</CustomerPackage>
+			<Waivers />
+			<Devices />
+		</Line>
+	</LinesInfo>
+</MOBILY_BSL_SR>

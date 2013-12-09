@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BULK_DISCONNECT_LINE</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion/>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20130201155823</SrDate>
+		<DealerId>113100</DealerId>
+		<AgentId/>
+	</SR_HEADER>
+	<ChannelTransId>SR_CORP_392723</ChannelTransId>
+	<LinesInfo>
+		<Line>
+			<LineSrId>SR_CORP_392723-1</LineSrId>
+			<PackageName>mobily Raaqi Connect</PackageName>
+			<MSISDN>966567925977</MSISDN>
+			<AccountNumber>100018512470595</AccountNumber>
+			<SimCard>8996631408122801990</SimCard>
+			<IMSI>420032142801990</IMSI>
+			<IMSI>420032142801990</IMSI>
+			<CustomerType>2</CustomerType>
+			<PUK1>66435879</PUK1>
+			<PUK2>96872207</PUK2>
+			<MANFlag>N</MANFlag>
+		</Line>
+		<Line>
+			<LineSrId>SR_CORP_392723-1</LineSrId>
+			<PackageName>mobily Raaqi Connect</PackageName>
+			<MSISDN>966567925977</MSISDN>
+			<AccountNumber>100018512470596</AccountNumber>
+			<SimCard>8996631408122801990</SimCard>
+			<IMSI>420032142801990</IMSI>
+			<IMSI>420032142801990</IMSI>
+			<CustomerType>2</CustomerType>
+			<PUK1>66435879</PUK1>
+			<PUK2>96872207</PUK2>
+			<MANFlag>N</MANFlag>
+		</Line>
+		<Line>
+			<LineSrId>SR_CORP_392723-1</LineSrId>
+			<PackageName>mobily Raaqi Connect</PackageName>
+			<MSISDN>966567925977</MSISDN>
+			<AccountNumber>100018512470597</AccountNumber>
+			<SimCard>8996631408122801990</SimCard>
+			<IMSI>420032142801990</IMSI>
+			<IMSI>420032142801990</IMSI>
+			<CustomerType>2</CustomerType>
+			<PUK1>66435879</PUK1>
+			<PUK2>96872207</PUK2>
+			<MANFlag>N</MANFlag>
+		</Line>
+	</LinesInfo>
+</MOBILY_BSL_SR>

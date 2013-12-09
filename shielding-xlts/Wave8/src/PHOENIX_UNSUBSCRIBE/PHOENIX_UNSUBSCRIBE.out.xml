@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>449138856</requestID>
+		<DWLControl>
+			<requesterName>PhoenixUnSubscripe</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>BSL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt />
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<EndDate>2013-01-21 20:52:10.000000</EndDate>
+							<ProductContractRelationshipType>2</ProductContractRelationshipType>
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+								<XProductContractRelationshipBObjExt>
+									<AgreementStatusType>4</AgreementStatusType>
+								</XProductContractRelationshipBObjExt>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>15</AdminSystemType>
+							<ProductAdminSysKeyPartOne>PHOENIX</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966540510748</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

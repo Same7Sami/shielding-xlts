@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>CPE_DEVICE_SWAP</FuncId>
+		<SecurityKey/>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20110705210641</SrDate>
+		<RequestorUserId>AHANI</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ChannelTransId>BSL_20110705210641</ChannelTransId>
+	<AccountNumber>1000111457287568</AccountNumber>
+	<CPENumber>21070000733572</CPENumber>
+	<OldCPENumber>21070000072850</OldCPENumber>
+	<Duration/>
+	<OldCPESerialNumber>SAM0512C5100WN-000850</OldCPESerialNumber>
+	<NewCPESerialNumber>SAM0318C5100WN-033572</NewCPESerialNumber>
+</MOBILY_BSL_SR>

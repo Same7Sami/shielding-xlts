@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<SecurityKey>axfedhxytnt</SecurityKey>
+		<ChannelTransId/>
+		<FuncId>PROMOTION_SUBSCRIPTION</FuncId>
+		<FunctionId>214</FunctionId>
+		<MsgVersion>0001</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<RequestorUserId/>
+		<TransId>433112</TransId>
+		<SrDate>20130323164528</SrDate>
+	</SR_HEADER>
+	<Status>6</Status>
+	<ReturnCodes>
+		<ReturnCode>0</ReturnCode>
+	</ReturnCodes>
+	<MSISDN>966561932017</MSISDN>
+	<PromoID>Customer Experience</PromoID>
+	<IntegerPromoID>122658</IntegerPromoID>
+	<CustomerType>2</CustomerType>
+	<SubscriptionDate></SubscriptionDate>
+	<ExpiryDate/>
+	<NotificationKeyValuePairs>
+		<KeyValuePair>
+			<Key>ACTIVATION_TIME</Key>
+			<Value>20130323014757</Value>
+		</KeyValuePair>
+		<KeyValuePair>
+			<Key>SR_ID</Key>
+			<Value>TSR_1069638839</Value>
+		</KeyValuePair>
+		<KeyValuePair>
+			<Key>REPLY_TO_QUEUE_NAME</Key>
+			<Value>MOBILY.PROMO.SUBSCRIPTION.PEREPLY</Value>
+		</KeyValuePair>
+		<KeyValuePair>
+			<Key>PromotionCode</Key>
+			<Value>Customer Experience</Value>
+		</KeyValuePair>
+		<KeyValuePair>
+			<Key>MQMD.REPLY_QUEUE_MANAGER_NAME</Key>
+			<Value>EESO605I</Value>
+		</KeyValuePair>
+		<KeyValuePair>
+			<Key>REPLY_TO_QUEUE_MANAGER_NAME</Key>
+			<Value>EESO603I</Value>
+		</KeyValuePair>
+	</NotificationKeyValuePairs>
+</MOBILY_BSL_SR>

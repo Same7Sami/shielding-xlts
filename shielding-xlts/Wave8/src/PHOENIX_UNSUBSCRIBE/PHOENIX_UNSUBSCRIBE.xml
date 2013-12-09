@@ -1,0 +1,24 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>PHOENIX_UNSUBSCRIBE</FuncId>
+		<SecurityKey>1234</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20130121205210</SrDate>
+		<RequestorUserId>CUG</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>N</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_449138856</ServiceRequestId>
+	<MSISDN>966540510748</MSISDN>
+	<SupplementaryService>PHOENIX</SupplementaryService>
+	<SrStatus>3</SrStatus>
+	<ChannelTransId>SR_449138854</ChannelTransId>
+	<ErrorCode>00</ErrorCode>
+	<ErrorMessage>Succeeded</ErrorMessage>
+	<CorporateId />
+	<CUG_Id>3349</CUG_Id>
+	<ActivationType>PreToPre</ActivationType>
+</MOBILY_BSL_SR>

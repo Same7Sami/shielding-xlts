@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>FULL_BARRING</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<ServiceRequestId>SR_3410553065</ServiceRequestId>
+		<SrDate>20111027163716</SrDate>
+		<BackendChannel/>
+	</SR_HEADER>
+	<StatusId>4</StatusId>
+	<LineNumber>966565542226</LineNumber>
+	<FunctionName>FULL_BARRING</FunctionName>
+	<ChannelTransId>SR_3410545150</ChannelTransId>
+	<RequesterUserId/>
+	<UserComment/>
+	<ReasonId>0</ReasonId>
+</MOBILY_BSL_SR>

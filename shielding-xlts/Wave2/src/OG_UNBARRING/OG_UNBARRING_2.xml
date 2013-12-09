@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>OG_UNBARRING</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<ServiceRequestId>SR_3410492178</ServiceRequestId>
+		<SrDate>20111027162657</SrDate>
+		<BackendChannel/>
+	</SR_HEADER>
+	<StatusId>1</StatusId>
+	<LineNumber>966540008481</LineNumber>
+	<FunctionName>OG_UNBARRING</FunctionName>
+	<ChannelTransId>CC-49510266</ChannelTransId>
+	<RequesterUserId>COLLECTION_SYSTEM</RequesterUserId>
+	<UserComment>High Usage System</UserComment>
+	<ReasonId>4</ReasonId>
+</MOBILY_BSL_SR>

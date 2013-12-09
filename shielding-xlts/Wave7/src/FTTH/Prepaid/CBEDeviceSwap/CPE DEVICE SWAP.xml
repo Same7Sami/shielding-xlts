@@ -1,0 +1,25 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>CPE_DEVICE_SWAP</FuncId>
+		<SecurityKey/>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20130306190922</SrDate>
+		<RequestorUserId>AHANI</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ChannelTransId>BSL_20130306190922</ChannelTransId>
+	<AccountNumber>1000114777294653</AccountNumber>
+	<CPENumber>HBM623mqwiS44Y</CPENumber>
+	<OldCPENumber>HBM623m6aqyUHa</OldCPENumber>
+	<Duration/>
+	<!-- take them -->
+	<OldCPESerialNumber>F2B8WA11C2109493</OldCPESerialNumber>
+	<NewCPESerialNumber>F2B8WA11C2109475</NewCPESerialNumber>
+	<NewCPECertNumber>2102310APV6TC8007037</NewCPECertNumber>
+	<NewMACAddress>101b.54bd.a625</NewMACAddress>
+	<NewCPEDomain>live.mobily.com.sa</NewCPEDomain>
+</MOBILY_BSL_SR>

@@ -1,0 +1,31 @@
+<MOBILY_BSL_SR>
+		<SR_HEADER>
+			<FuncId>ELIFE_IPTV_SUSPEND</FuncId>
+			<SecurityKey>0000</SecurityKey>
+			<MsgVersion>1.0</MsgVersion>
+			<RequestorChannelId>BROKER</RequestorChannelId>
+			<RequestorLanguage>E</RequestorLanguage>
+			<SrDate>2012-12-29T23:45:34</SrDate>
+			<BackendChannel>Network</BackendChannel>
+			<Reversal>0</Reversal>
+			<FailureHandling>ALL_OR_NON</FailureHandling>
+			<UserId>BSL</UserId>
+		</SR_HEADER>
+		<ServiceRequests>
+			<ServiceRequest>
+				<CustomerAccountNumber>CAN</CustomerAccountNumber>
+				<ServiceRequestId>SR_ELF_448954088</ServiceRequestId>
+				<ServiceType>SERVICE_REQUEST</ServiceType>
+				<Orders>
+					<Order>
+						<ServiceAccountNumber>1000113363648270</ServiceAccountNumber>
+						<OrderType>SERVICE</OrderType>
+						<OrderID>SR_ELF_448954088-1</OrderID>
+						<Operation>MODIFY</Operation>
+						<SrName>SER_IPTV</SrName>
+						<SrOperation>SUSPEND</SrOperation>						
+					</Order>
+				</Orders>
+			</ServiceRequest>
+		</ServiceRequests>
+</MOBILY_BSL_SR>

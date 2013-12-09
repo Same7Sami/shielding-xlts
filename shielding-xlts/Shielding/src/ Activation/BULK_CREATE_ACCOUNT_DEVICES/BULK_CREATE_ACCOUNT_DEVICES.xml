@@ -1,0 +1,32 @@
+<NotifyLogMessage>
+	<ServiceRequestId>SR_CORP_276145</ServiceRequestId>
+	<FuncId>721</FuncId>
+	<MsgType>Notify</MsgType>
+	<FlowID>2</FlowID>
+	<NotifyID>402</NotifyID>
+	<QueueName>MOBILY.MEDIATOR.NOTIFICATION.REQUEST</QueueName>
+	<ChannelTransId>1-15988513195</ChannelTransId>
+	<ID>8196550597</ID>
+	<RefID>8196550582</RefID>
+	<Message>
+		<MOBILY_BSL_SR>
+			<SR_HEADER>
+				<FuncId>BULK_CREATE_ACCOUNT_DEVICES</FuncId>
+				<SecurityKey>0000</SecurityKey>
+				<MsgVersion/>
+				<RequestorChannelId>BSL</RequestorChannelId>
+				<SrDate>20111001000120</SrDate>
+				<OrderCreationDate>20110930235805</OrderCreationDate>
+				<RequestorUserId>SADMIN</RequestorUserId>
+				<RequestorLanguage/>
+				<OverwriteOpenOrder>false</OverwriteOpenOrder>
+				<Chargeable/>
+				<ChargeAmount>0.0</ChargeAmount>
+			</SR_HEADER>
+			<ConsumtionId>1-7CF3L3Z</ConsumtionId>
+			<ConsumtionDate>20111001000120</ConsumtionDate>
+			<ConsumtionDealerId>112100</ConsumtionDealerId>
+			<PayType>1</PayType>
+		</MOBILY_BSL_SR>
+	</Message>
+</NotifyLogMessage>

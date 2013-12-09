@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>888982104</requestID>
+		<DWLControl>
+			<requesterName>CUGSubscripe</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>BSL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt />
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<StartDate>2013-03-05 12:02:20.000000</StartDate>
+							<ProductContractRelationshipType>2</ProductContractRelationshipType>
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+								<XProductContractRelationshipBObjExt>
+									<AgreementStatusType>5</AgreementStatusType>
+								</XProductContractRelationshipBObjExt>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>15</AdminSystemType>
+							<ProductAdminSysKeyPartOne>CUG</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966565912261</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

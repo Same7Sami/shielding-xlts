@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>FULL_BARRING</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20090827145408</SrDate>
+		<RequestorUserId>IVR</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<ChargingMode>Payment</ChargingMode>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<NotifyBE>1</NotifyBE>
+	<LineNumber>966565557468</LineNumber>
+	<ChannelTransId>SR_1355986790</ChannelTransId>
+	<ReasonId/>
+	<FINAL_REPLY_QUEUE/>
+	<FINAL_REPLY_QUEUE_MANAGER/>
+	<PARAMETER>
+		<NAME>MSISDN</NAME>
+		<VALUE>966565557468</VALUE>
+	</PARAMETER>
+</MOBILY_BSL_SR>

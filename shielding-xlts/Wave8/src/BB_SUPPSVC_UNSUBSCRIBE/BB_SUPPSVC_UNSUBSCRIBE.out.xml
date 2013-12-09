@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>4963677325</requestID>
+		<DWLControl>
+			<requesterName>BBUnSubscripe</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>SMS</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt />
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<EndDate>2012-12-14 22:40:33.000000</EndDate>
+							<ProductContractRelationshipType>2</ProductContractRelationshipType>
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+								<XProductContractRelationshipBObjExt>
+									<AgreementStatusType>4</AgreementStatusType>
+								</XProductContractRelationshipBObjExt>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>15</AdminSystemType>
+							<ProductAdminSysKeyPartOne>1001</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<ContractValueCompositeBObj>
+						<TCRMContractValueBObj>
+							<ContractValueType>37</ContractValueType>
+							<Attribute0Type>61</Attribute0Type>
+							<Attribute0String>BB_National</Attribute0String>
+						</TCRMContractValueBObj>
+					</ContractValueCompositeBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966569933668</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>20130408103123</requestID>
+		<DWLControl>
+			<requesterName>FTTHDownUpgradePre</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<DeviceSerialNumber>QAELIFEFT20130065</DeviceSerialNumber>
+								<CPEDCN>QAELIFEFT20130065</CPEDCN>
+								<CPEMacAddress>2013.0119.0065</CPEMacAddress>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>1000113635474304</AdminContractId>
+							<AdminFieldNameType>8</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+					<ContractValueCompositeBObj>
+						<TCRMContractValueBObj>
+							<ContractValueType>31</ContractValueType>
+							<Attribute1Type>96</Attribute1Type>
+							<Attribute1String>50 MB</Attribute1String>
+							<Attribute2Type>97</Attribute2Type>
+							<Attribute2String>3 Month</Attribute2String>
+						</TCRMContractValueBObj>
+					</ContractValueCompositeBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

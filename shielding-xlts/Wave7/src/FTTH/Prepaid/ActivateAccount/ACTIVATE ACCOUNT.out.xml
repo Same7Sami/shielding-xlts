@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>20130309121554</requestID>
+		<DWLControl>
+			<requesterName>FTTHActivatePre</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>BSL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<AgreementStatusType>5</AgreementStatusType>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<NetworkStatusType>1</NetworkStatusType>
+								<ExpiryDate>2013-06-09 02:37:37.000000</ExpiryDate>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>7</ContractStatusType>
+						</TCRMContractComponentBObj>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>1000116740155158</AdminContractId>
+							<AdminFieldNameType>8</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+					<ContractValueCompositeBObj>
+						<TCRMContractValueBObj>
+							<ContractValueType>31</ContractValueType>
+							<Attribute1Type>96</Attribute1Type>
+							<Attribute1String>25 MB</Attribute1String>
+						</TCRMContractValueBObj>
+					</ContractValueCompositeBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

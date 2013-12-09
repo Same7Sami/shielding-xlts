@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>852941302</requestID>
+		<DWLControl>
+			<requesterName>FTTHSuspend</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>CC</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt />
+						</TCRMExtension>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>1000113549579815</AdminContractId>
+							<AdminFieldNameType>8</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+					<ContractValueCompositeBObj>
+						<TCRMContractValueBObj>
+							<ContractValueType>31</ContractValueType>
+							<Attribute1Type>96</Attribute1Type>
+							<Attribute1String>1 MB</Attribute1String>
+						</TCRMContractValueBObj>
+					</ContractValueCompositeBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

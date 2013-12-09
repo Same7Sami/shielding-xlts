@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mobilyResponse.xsd">
+	<ResponseControl>
+		<ResultCode>SUCCESS</ResultCode>
+		<ServiceTime>2230</ServiceTime>
+		<DWLControl>
+			<clientSystemName>BSL</clientSystemName>
+			<requesterLanguage>100</requesterLanguage>
+			<requesterLocale>en</requesterLocale>
+			<requesterName>IVR</requesterName>
+			<requestID>1355986790</requestID>
+			<requestTime>2009-08-27 14:54:08.000000</requestTime>
+		</DWLControl>
+	</ResponseControl>
+	<TxResponse>
+		<RequestType>updateContractComposite</RequestType>
+		<TxResult>
+			<ResultCode>SUCCESS</ResultCode>
+		</TxResult>
+	</TxResponse>
+</TCRMService>

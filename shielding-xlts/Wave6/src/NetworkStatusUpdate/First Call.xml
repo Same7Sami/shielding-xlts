@@ -1,0 +1,24 @@
+<OCGWMessage>
+	<Header>
+		<MsgId>OCGW_0213Q8007531||000001</MsgId>
+		<AppId>015</AppId>
+		<MsgTimeStamp>2013-03-16T15:27:46+03:00</MsgTimeStamp>
+	</Header>
+	<Body>
+		<Message>
+			<BatchNo>0213Q8007531</BatchNo>
+			<SequenceNo>000001</SequenceNo>
+			<FunctionId>1</FunctionId>
+			<ServiceId>306</ServiceId>
+			<ServiceCode>50</ServiceCode>
+			<SubscriberId>0540700199</SubscriberId>
+			<ServiceClass>1310</ServiceClass>
+			<MainAccAmount>00003000</MainAccAmount>
+			<EventDate>20130225095031</EventDate>
+			<LifeCycleStartDate>20130225095031</LifeCycleStartDate>
+			<InitialAmount>00003000</InitialAmount>
+			<ActivationDate>20130220</ActivationDate>
+			<PackageID>1467</PackageID>
+		</Message>
+	</Body>
+</OCGWMessage>

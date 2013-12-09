@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BB_SUPPSVC_SERVICE_DEAL_CHANGE</FuncId>
+		<SecurityKey/>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>SMS</RequestorChannelId>
+		<SrDate>20121214231623</SrDate>
+		<RequestorUserId>s.ali</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_4963769081</ServiceRequestId>
+	<ChannelTransId>SR_SMS_20121214231154</ChannelTransId>
+	<MSISDN>966564638468</MSISDN>
+	<SupplementaryService>BlackBerry</SupplementaryService>
+	<ServiceType>1001</ServiceType>
+	<PlanType>BB_Weekly</PlanType>
+	<OldPlanType>BB_National</OldPlanType>
+	<OldServiceType>1001</OldServiceType>
+	<PackageId>1347</PackageId>
+	<SrStatus>6</SrStatus>
+	<CustomerType>1</CustomerType>
+</MOBILY_BSL_SR>

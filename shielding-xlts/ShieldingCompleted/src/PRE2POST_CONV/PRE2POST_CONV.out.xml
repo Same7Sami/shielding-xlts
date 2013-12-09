@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<RequestControl>
+<requestID>3964069955</requestID>
+<DWLControl>
+<requesterName>HT0600</requesterName>
+<requesterLanguage>1100</requesterLanguage>
+<requestTime>2012-04-01 21:56:35.000000</requestTime>
+<clientSystemName>BSL</clientSystemName>
+</DWLControl>
+</RequestControl>
+<TCRMTx>
+<TCRMTxType>updateContractComposite</TCRMTxType>
+<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+<TCRMObject>
+<ContractCompositeBObj>
+<ContractCompositeMBObj>
+<TCRMContractBObj>
+<TCRMExtension>
+<ExtendedObject>XContractBObjExt</ExtendedObject>
+<XContractBObjExt>
+<CreatedDealerId>050014</CreatedDealerId>
+<CreatedShopId>0500140468</CreatedShopId>
+<PayType>2</PayType>
+</XContractBObjExt>
+</TCRMExtension>
+</TCRMContractBObj>
+<ProductContractRelationshipCompositeBObj>
+<TCRMProductContractRelationshipBObj>
+<EndDate>2012-04-01 21:56:35.000000</EndDate>
+<ProductContractRelationshipType>1</ProductContractRelationshipType>
+<TCRMExtension>
+<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+<XProductContractRelationshipBObjExt/>
+</TCRMExtension>
+</TCRMProductContractRelationshipBObj>
+<ProductAdminSysKeyBObj>
+<AdminSystemType>21</AdminSystemType>
+<ProductAdminSysKeyPartOne/>
+</ProductAdminSysKeyBObj>
+</ProductContractRelationshipCompositeBObj>
+<ProductContractRelationshipCompositeBObj>
+<TCRMProductContractRelationshipBObj>
+<StartDate>2012-04-01 21:56:35.000000</StartDate>
+<ProductContractRelationshipType>1</ProductContractRelationshipType>
+<TCRMExtension>
+<ExtendedObject>XProductContractRelationshipBObjExt
+										</ExtendedObject>
+<XProductContractRelationshipBObjExt/>
+</TCRMExtension>
+</TCRMProductContractRelationshipBObj>
+<ProductAdminSysKeyBObj>
+<AdminSystemType>21</AdminSystemType>
+<ProductAdminSysKeyPartOne/>
+</ProductAdminSysKeyBObj>
+</ProductContractRelationshipCompositeBObj>
+<ContractValueCompositeBObj>
+<TCRMContractValueBObj>
+<ContractValueType>28</ContractValueType>
+<ValueString/>
+<StartDate>2012-04-01 21:56:35.000000</StartDate>
+<EndDate/>
+<Attribute0Type>52</Attribute0Type>
+<Attribute0String>2012-04-01</Attribute0String>
+</TCRMContractValueBObj>
+</ContractValueCompositeBObj>
+<ContractSearchParamsBObj>
+<MSISDN>966561442020</MSISDN>
+</ContractSearchParamsBObj>
+</ContractCompositeMBObj>
+</ContractCompositeBObj>
+</TCRMObject>
+</TCRMTx>
+</TCRMService>

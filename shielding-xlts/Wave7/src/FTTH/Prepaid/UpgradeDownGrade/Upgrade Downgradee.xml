@@ -1,0 +1,155 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>FTTH_UPGRADE_DOWNGRADE</FuncId>
+		<SecurityKey />
+		<MsgVersion />
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate />
+		<RequestorUserId>QAUSER</RequestorUserId>
+		<RequestorLanguage />
+		<DealerId>111111</DealerId>
+		<ShopId />
+		<AgentId />
+		<OrderCreationDate />
+		<OrderSubmitDate>20130408103123</OrderSubmitDate>
+	</SR_HEADER>
+	<Order-Info>
+		<OrderId>1-69V3ZSB</OrderId>
+		<OrderNumber>1-13657144043</OrderNumber>
+		<InviterSAN />
+		<Promotion />
+		<LineActiviationDate>20130408103103</LineActiviationDate>
+		<RootAcountNumber>1000113635459998</RootAcountNumber>
+		<DepartmentAccountNumber>1000113635459998</DepartmentAccountNumber>
+		<Company />
+		<Contact>
+			<Title>Mr.</Title>
+			<FullName>QATEST ELIFEDOUBLE</FullName>
+			<FirstName>QATEST</FirstName>
+			<MiddleName />
+			<LastName>ELIFEDOUBLE</LastName>
+			<Name>QATEST ELIFEDOUBLE</Name>
+			<JobTitle />
+			<Nationality>India</Nationality>
+			<BirthDate>04/22/1980</BirthDate>
+			<HijriDate>06/06/1400</HijriDate>
+			<Occupation />
+			<EmailAddress>j.yusuff.dar@mobily.com.sa</EmailAddress>
+			<Phone />
+			<MobilePhone>+966540511490</MobilePhone>
+			<Fax />
+			<Gender>M</Gender>
+			<DocIdNumber>5334634632</DocIdNumber>
+			<DocIdType>Passport</DocIdType>
+			<DocIdExpDate>04/01/2019 15:04:12</DocIdExpDate>
+		</Contact>
+		<AddressInfo>
+			<StreetAddress>1234</StreetAddress>
+			<City>Riyadh</City>
+			<PostalCode>00000</PostalCode>
+			<POBox>1234</POBox>
+			<Country>Saudi Arabia</Country>
+		</AddressInfo>
+		<WaselInfo>
+			<IsWaselCustomer>N</IsWaselCustomer>
+			<PostalCode>00000</PostalCode>
+			<ExendedNumber />
+			<PostNum />
+		</WaselInfo>
+		<InvoiceProfile>
+			<BillCycle>1</BillCycle>
+			<BillFrequency>Monthly</BillFrequency>
+			<InvoiceComments />
+			<InvoiceTemplate>Individual</InvoiceTemplate>
+			<LanguagePreference>Arabic</LanguagePreference>
+			<PayType />
+			<MediaType>Email</MediaType>
+			<Currency>SAR</Currency>
+		</InvoiceProfile>
+		<LineItems>
+			<LineService>
+				<ServiceAggregatorId>1-69V4GMA</ServiceAggregatorId>
+				<ProductAccountNumber />
+				<DomainName />
+				<productTechnology />
+				<CPESerialNumber>QAELIFEFT20130065</CPESerialNumber>
+				<CPECertificateNumber>QAELIFEFT20130065</CPECertificateNumber>
+				<CPEMACAddress>2013.0119.0065</CPEMACAddress>
+				<ShortCode1 />
+				<ShortCode2 />
+				<FORTINETCPE />
+				<CommitmentAmount />
+				<CreditLimit />
+				<RackId />
+				<AccountNumber>1000113635474304</AccountNumber>
+				<ServiceAccountId>1-69I7JB4</ServiceAccountId>
+				<PackageName>FTTH Package</PackageName>
+				<PlanType>Prepaid</PlanType>
+				<PriceList>1-7YW6</PriceList>
+				<DiscountValue />
+				<BillFrequency>Monthly</BillFrequency>
+				<Attributes>
+					<Attribute>
+						<Name>Bandwidth</Name>
+						<Value>50 MB</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Commitment Months</Name>
+						<Value>17</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Duration</Name>
+						<Value>3 Month</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Installment Duration</Name>
+						<Value>-</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Is Committed</Name>
+						<Value>N</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Is Installment</Name>
+						<Value>N</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Order Subtype</Name>
+						<Value />
+					</Attribute>
+					<Attribute>
+						<Name>Temp Subtype</Name>
+						<Value>Package Conversion</Value>
+					</Attribute>
+					<Attribute>
+						<Name>isRelocate</Name>
+						<Value />
+					</Attribute>
+				</Attributes>
+				<Pricing>
+					<NRC>
+						<Name>FTTH Subscription - Prepaid</Name>
+						<ActualValue>1100.0</ActualValue>
+						<DiscountedValue>1100.0</DiscountedValue>
+						<PromName />
+						<DiscountPercentage>1100.0</DiscountPercentage>
+					</NRC>
+					<NRC>
+						<Name>FTTH Setup - Prepaid</Name>
+						<ActualValue>0.0</ActualValue>
+						<DiscountedValue>0.0</DiscountedValue>
+						<PromName />
+						<DiscountPercentage>0.0</DiscountPercentage>
+					</NRC>
+					<NRC>
+						<Name>FTTH Device</Name>
+						<ActualValue>0.0</ActualValue>
+						<DiscountedValue>0.0</DiscountedValue>
+						<PromName />
+						<DiscountPercentage>0.0</DiscountPercentage>
+					</NRC>
+				</Pricing>
+			</LineService>
+		</LineItems>
+	</Order-Info>
+</MOBILY_BSL_SR>

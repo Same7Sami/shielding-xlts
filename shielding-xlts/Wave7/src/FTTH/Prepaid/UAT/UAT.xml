@@ -1,0 +1,23 @@
+<MOBILY_BSL_SR>
+                <SR_HEADER>
+                                <FuncId>CPE_EXP_DATE</FuncId>
+                                <ServiceRequestId>SR_1121744113</ServiceRequestId>
+                                <ChannelTransId>SR_1121744113</ChannelTransId>
+                                <SrDate>20130409162248</SrDate>
+                </SR_HEADER>
+                <ServiceType>
+                                <ReferenceId>SR_1121744113</ReferenceId>
+                                <MsgFormat>CPE_EXP_DATE</MsgFormat>
+                                <MsgOption>SA_UPD_INVOICE</MsgOption>
+                                <ServiceRequestInfo>
+                                                <ChannelTransId/>
+                                                <Status/>
+                                                <ErrorCode/>
+                                                <ErrorMsg/>
+                                </ServiceRequestInfo>
+                                <Operation>notification</Operation>
+                                <AccountNumber>1000113648257779</AccountNumber>
+                                <ExpDate>20140403000000</ExpDate>
+                                <ServiceStartDate>20130902171948</ServiceStartDate>
+                </ServiceType>
+</MOBILY_BSL_SR>

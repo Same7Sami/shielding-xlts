@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>07127001764000425</requestID>
+		<DWLControl>
+			<requesterName>LifeCycleChange</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<NetworkStatusType>3</NetworkStatusType>
+								<ChargingStatusType>2</ChargingStatusType>
+							</XContractBObjExt>
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966545321397</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

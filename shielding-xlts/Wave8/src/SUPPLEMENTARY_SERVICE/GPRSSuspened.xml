@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+                <SR_HEADER>
+                                <FuncId>SUPPLEMENTARY_SERVICE</FuncId>
+                                <MsgVersion>0001</MsgVersion>
+                                <RequestorChannelId>BSL</RequestorChannelId>
+                                <SrDate>20130311115342</SrDate>
+                                <RequestorUserId>AUTORENEWAL_SERVICE</RequestorUserId>
+                                <Chargeable>Y</Chargeable>
+                                <ChargeAmount/>
+                </SR_HEADER>
+                <ServiceRequestId>SSM110320131325961</ServiceRequestId>
+                <MSISDN>966540510035</MSISDN>
+                <Operation>graceperiod</Operation>
+                <ServiceCode>30MB</ServiceCode>
+                <ServiceParentCode>GPRS</ServiceParentCode>
+                <AR_COUNTER>0</AR_COUNTER>
+               	<MDMId>1111111</MDMId>
+</MOBILY_BSL_SR>

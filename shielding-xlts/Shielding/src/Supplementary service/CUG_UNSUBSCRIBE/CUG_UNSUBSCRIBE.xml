@@ -1,0 +1,22 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>CUG_UNSUBSCRIBE</FuncId>
+		<SecurityKey>1234</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20100319055730</SrDate>
+		<RequestorUserId>CUG</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>N</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_1563276665</ServiceRequestId>
+	<MSISDN>966540511663</MSISDN>
+	<SupplementaryService>CUG</SupplementaryService>
+	<SrStatus>7</SrStatus>
+	<ErrorCode>2401</ErrorCode>
+	<ErrorMessage>One Request is pending for this MSISDN</ErrorMessage>
+	<CorporateId>1-4WH6C3M</CorporateId>
+	<CUG_Id>3370</CUG_Id>
+</MOBILY_BSL_SR>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<RequestControl>
+<requestID>21707241</requestID>
+<DWLControl>
+<requesterName>PF101707</requesterName>
+<requesterLanguage>100</requesterLanguage>
+<requestTime>2012-02-12 12:33:43.000000</requestTime>
+<clientSystemName>BMS</clientSystemName>
+</DWLControl>
+</RequestControl>
+<TCRMTx>
+<TCRMTxType>updateContractComposite</TCRMTxType>
+<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+<TCRMObject>
+<ContractCompositeBObj>
+<ContractCompositeMBObj>
+<TCRMContractBObj>
+<TCRMExtension>
+<ExtendedObject>XContractBObjExt</ExtendedObject>
+<XContractBObjExt/>
+</TCRMExtension>
+</TCRMContractBObj>
+<ProductContractRelationshipCompositeBObj>
+<TCRMProductContractRelationshipBObj>
+<StartDate>2012-02-12 12:33:43.000000</StartDate>
+<ProductContractRelationshipType>2</ProductContractRelationshipType>
+<TCRMExtension>
+<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+<XProductContractRelationshipBObjExt/>
+</TCRMExtension>
+</TCRMProductContractRelationshipBObj>
+<ProductAdminSysKeyBObj>
+<AdminSystemType>15</AdminSystemType>
+<ProductAdminSysKeyPartOne>LBS</ProductAdminSysKeyPartOne>
+</ProductAdminSysKeyBObj>
+</ProductContractRelationshipCompositeBObj>
+<ContractSearchParamsBObj>
+<MSISDN>966540510553</MSISDN>
+</ContractSearchParamsBObj>
+</ContractCompositeMBObj>
+</ContractCompositeBObj>
+</TCRMObject>
+</TCRMTx>
+</TCRMService>

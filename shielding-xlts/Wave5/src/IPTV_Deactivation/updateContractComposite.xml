@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>3410515163</requestID>
+		<DWLControl>
+			<requesterName>s.abdullah.ejd</requesterName>						
+			<requesterLanguage>100</requesterLanguage>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<EndDate>2012-10-27 16:30:22.000000</EndDate>
+						<AgreementStatusType>4</AgreementStatusType>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<NetworkStatusType>6</NetworkStatusType>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>6</ContractStatusType>
+						</TCRMContractComponentBObj>
+						<TCRMAdminNativeKeyBObj>		
+							<AdminContractId>1000126551109857</AdminContractId>
+							<AdminFieldNameType>8</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+				</ContractCompositeMBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<EndDate>2012-10-27 16:30:22.000000</EndDate>
+						<AgreementStatusType>4</AgreementStatusType>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<NetworkStatusType>6</NetworkStatusType>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>6</ContractStatusType>
+						</TCRMContractComponentBObj>
+						<TCRMAdminNativeKeyBObj>		
+							<AdminContractId>ABC123</AdminContractId>
+							<AdminFieldNameType>10</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

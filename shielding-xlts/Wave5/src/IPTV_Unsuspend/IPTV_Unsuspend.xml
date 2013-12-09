@@ -1,0 +1,23 @@
+﻿<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>IPTV_UNSUSPENSE</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>CC</RequestorChannelId>
+		<SrDate>20121103130151</SrDate>
+		<RequestorUserId>COLLECTION_SYSTEM</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<Chargeable>N</Chargeable>
+		<ChargingMode>PAYMENT</ChargingMode>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ChannelTransId>CC-6293754</ChannelTransId>
+	<UNSuspenseReason>2</UNSuspenseReason>
+	<AccountNumber>1000112467401703</AccountNumber>
+	<LOGIN_ID>aaaa.1010.ca00</LOGIN_ID>
+	<DOMAIN>live.mobily.com.sa</DOMAIN>
+	<REPLYQUEUENAME/>
+	<REPLYMQUEUENAME/>
+	<NotifyBE>Y</NotifyBE>
+	<UserComment>Unsuspense due to payment</UserComment>
+</MOBILY_BSL_SR>

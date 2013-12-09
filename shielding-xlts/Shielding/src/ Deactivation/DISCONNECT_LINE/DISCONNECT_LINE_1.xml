@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>DISCONNECT_LINE</FuncId>
+		<SecurityKey>axfedhxytnt</SecurityKey>
+		<MsgVersion>0001</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<SrDate>20120221173547</SrDate>
+		<OrderCreationDate>20120221173547</OrderCreationDate>
+		<ServiceRequestId>TEST_SR_21938774_2</ServiceRequestId>
+		<SrId>TEST_SR_21938774</SrId>
+		<ChannelTransId />
+		<ChargeAbleFlag />
+		<Chargeable />
+		<ChargingMode />
+		<RequestorUserId>axfedhxytnt</RequestorUserId>
+		<RequestorLanguage />
+		<OverwriteOpenOrder />
+		<ChargeAmount />
+		<DealerId>111111</DealerId>
+		<AgentId>QAUSER</AgentId>
+		<ShopId>111111</ShopId>
+		<Reason>111111</Reason>
+	</SR_HEADER>
+	<ServiceRequestId>TEST_SR_21938774</ServiceRequestId>
+	<MSISDN>200911705315</MSISDN>
+	<CustomerID>TESTIUC877</CustomerID>
+	<CustomerIDType>Passport</CustomerIDType>
+	<PUK1>3669</PUK1>
+	<PUK2>34126756</PUK2>
+	<SimType />
+	<IMSI>420030100029480</IMSI>
+	<SIM>8996631000000029480</SIM>
+	<SimNumber>8996631000000029480</SimNumber>
+	<Vanity>0</Vanity>
+	<SHOP_ID>111111</SHOP_ID>
+	<Dealer_Id>111111</Dealer_Id>
+	<Agent_Id>QAUSER</Agent_Id>
+	<PricingPlan>2</PricingPlan>
+	<ParentAccountNumber>1000110396676396</ParentAccountNumber>
+	<AccountNumber>1000110408560499</AccountNumber>
+	<BillingNumber>1000110408560499</BillingNumber>
+	<CUSTOMER_CATEGORY>Family</CUSTOMER_CATEGORY>
+	<CUSTOMER_TYPE>Consumer</CUSTOMER_TYPE>
+	<FIRST_NAME>QATEST TST</FIRST_NAME>
+	<MIDDLE_NAME />
+	<LAST_NAME>BUS FOREMAN</LAST_NAME>
+	<NATIONALITY />
+	<BIRTH_DATE>19771212000000</BIRTH_DATE>
+	<OCCUPATION>Professional</OCCUPATION>
+	<EMAIL_ADDRESS />
+	<MOBILE_PHONE>+966345345345</MOBILE_PHONE>
+	<GENDER>M</GENDER>
+	<DISCOUNT_TYPE />
+	<PackageID>1340</PackageID>
+	<MediaType>Courier</MediaType>
+	<ActivationTime>20120221173547</ActivationTime>
+	<PromoCardNumber />
+	<OrderId />
+	<DealerCreditPin />
+	<SecondaryPromotion />
+	<CPENo />
+	<CPESerialNumber />
+	<Duration />
+	<MaxDownloadRate />
+	<MaxUploadRate />
+	<CorporateId />
+	<CUG_Id />
+	<ServiceType />
+	<DEVICE />
+	<WAIVER>
+		<PAYMENT_TYPES>
+			<TYPE />
+			<TYPE />
+		</PAYMENT_TYPES>
+		<DURATION />
+		<Amount />
+		<WAIVER_ID />
+	</WAIVER>
+	<ChannelTransId />
+	<PackageName>Octopus IUC Connect</PackageName>
+	<CustomerType>2</CustomerType>
+	<PlanType />
+	<SubscriptionDate>20091016133003</SubscriptionDate>
+	<UnSubscriptionDate />
+	<PackageType />
+	<PackageId>1143</PackageId>
+	<Operation>CREATE_RBT</Operation>
+	<SubscriptionType>MONTHLY</SubscriptionType>
+</MOBILY_BSL_SR>

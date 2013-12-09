@@ -1,0 +1,31 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>ELIFE_FTTH_SUSPEND</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>1.0</MsgVersion>
+		<RequestorChannelId>BROKER</RequestorChannelId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<SrDate>2013-03-10T03:09:06</SrDate>
+		<BackendChannel>Network</BackendChannel>
+		<Reversal>0</Reversal>
+		<FailureHandling>ABORT</FailureHandling>
+		<UserId>BSL</UserId>
+	</SR_HEADER>
+	<ServiceRequests>
+		<ServiceRequest>
+			<CustomerAccountNumber>CAN</CustomerAccountNumber>
+			<ServiceRequestId>SR_ELF_833456783</ServiceRequestId>
+			<ServiceType>SERVICE_REQUEST</ServiceType>
+			<Orders>
+				<Order>
+					<ServiceAccountNumber>1000113549512615</ServiceAccountNumber>
+					<OrderType>SERVICE</OrderType>
+					<OrderID>SR_ELF_833456783-1</OrderID>
+					<Operation>MODIFY</Operation>
+					<SrName>SER_FTTH</SrName>
+					<SrOperation>BLOCK</SrOperation>
+				</Order>
+			</Orders>
+		</ServiceRequest>
+	</ServiceRequests>
+</MOBILY_BSL_SR>

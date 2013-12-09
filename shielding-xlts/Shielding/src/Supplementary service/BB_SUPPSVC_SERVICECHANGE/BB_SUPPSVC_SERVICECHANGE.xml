@@ -1,0 +1,16 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BB_SUPPSVC_SERVICECHANGE</FuncId>
+		<SecurityKey/>
+		<ServiceRequestId>SR_679765960</ServiceRequestId>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20080221225142</SrDate>
+		<BackendChannel>NETWORK</BackendChannel>
+	</SR_HEADER>
+	<MSISDN>966542158921</MSISDN>
+	<IMSI>420032215056091</IMSI>
+	<ServiceType>1007</ServiceType> what is service type sameh to check
+	<ServiceID>1005</ServiceID> what is ServiceID sameh to check
+	<ProductType>BlackBerry</ProductType> what is Product Type
+</MOBILY_BSL_SR>
