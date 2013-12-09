@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>22599927</requestID>
+		<DWLControl>
+			<requesterName>ShieldingSwap</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<requestTime>2012-09-08 16:59:04.000000</requestTime>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<SIM>8996631000000042954</SIM>
+								<PUK1>3669</PUK1>
+								<PUK2>34126756</PUK2>
+								<IMSI>420030100042954</IMSI>
+							</XContractBObjExt>
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966540511455</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

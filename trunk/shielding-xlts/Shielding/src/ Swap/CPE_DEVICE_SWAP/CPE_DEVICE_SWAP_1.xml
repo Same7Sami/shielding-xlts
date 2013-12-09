@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>CPE_DEVICE_SWAP</FuncId>
+		<SecurityKey>AAA</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<SrDate>20090228104644</SrDate>
+		<RequestorUserId>PF102557</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>N</Chargeable>
+		<ChargingMode>Payment</ChargingMode>
+		<ChargeAmount>0</ChargeAmount>
+		<DealerID>050071</DealerID>
+		<ShopId>0500710001</ShopId>
+		<AgentId>PF102557</AgentId>
+	</SR_HEADER>
+	<ChannelTransId>1-8972878623</ChannelTransId>
+	<UpdateQueueName>MOBILY.FUNC.CPE.REFUND.NOTIFY</UpdateQueueName>
+	<UpdateQueueMgrname/>
+	<NeedUpdateReply>Y</NeedUpdateReply>
+	<SR_INFO>
+		<ServiceAccountNumber>100018969865257</ServiceAccountNumber>
+		<OldCPESerialNumber>S73P846119</OldCPESerialNumber>
+		<OldCPECertNumber>500000000020B1</OldCPECertNumber>
+		<NewCPESerialNumber>S73P846120</NewCPESerialNumber>
+		<NewCPECertNumber>500000000020B1</NewCPECertNumber>
+	</SR_INFO>
+</MOBILY_BSL_SR>

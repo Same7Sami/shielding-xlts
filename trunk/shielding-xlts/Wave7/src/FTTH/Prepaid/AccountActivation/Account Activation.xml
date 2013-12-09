@@ -1,0 +1,157 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>Create Account</FuncId>
+		<SecurityKey>123</SecurityKey>
+		<MsgVersion>123</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate>20130311023737</OrderDate>
+		<RequestorUserId>80018106</RequestorUserId>
+		<RequestorLanguage>A</RequestorLanguage>
+		<DealerId>119100</DealerId>
+		<ShopId>119100</ShopId>
+		<AgentId>80018106</AgentId>
+		<OrderCreationDate>20130311023738</OrderCreationDate>
+		<OrderSubmitDate>20130311023855</OrderSubmitDate>
+	</SR_HEADER>
+	<Order-Info>
+		<OrderId>1-9K3L5EM</OrderId>
+		<OrderNumber>1-20806390174</OrderNumber>
+		<InviterSAN/>
+		<Promotion>mySiebelPromotion</Promotion>
+		<LineActivationDate>20130311023737</LineActivationDate>
+		<RootAccountNumber>1000111708237418</RootAccountNumber>
+		<DepartmentAccountNumber>1000120806631356</DepartmentAccountNumber>
+		<Company/>
+		<Contact>
+			<Title>'D3J/</Title>
+			<FullName>3'E1 E-E/ 'D.'D/J</FullName>
+			<FirstName>3'E1</FirstName>
+			<MiddleName>E-E/</MiddleName>
+			<LastName>'D.'D/J</LastName>
+			<Name>3'E1 E-E/ 'D.'D/J</Name>
+			<JobTitle/>
+			<Nationality>Saudi Arabia</Nationality>
+			<BirthDate>08/11/1961</BirthDate>
+			<HijriDate>28/02/1381</HijriDate>
+			<Occupation/>
+			<EmailAddress/>
+			<Phone>+96612150509</Phone>
+			<MobilePhone>+966505615234</MobilePhone>
+			<Fax/>
+			<Gender>M</Gender>
+			<DocIdNumber>1024123141</DocIdNumber>
+			<DocIdType>Saudi National ID</DocIdType>
+			<DocIdExpDate>06/28/2031 00:00:00</DocIdExpDate>
+			<CustomerAccountNumber>10233659842213</CustomerAccountNumber>
+		</Contact>
+		<AddressInfo>
+			<StreetAddress>'D1J'6    -J 'D3DJE'FJG</StreetAddress>
+			<City>'D1J'6</City>
+			<PostalCode>11471</PostalCode>
+			<POBox>3475</POBox>
+			<Country>'D39H/J)</Country>
+		</AddressInfo>
+		<WaselInfo>
+			<IsWaselCusomter>N</IsWaselCusomter>
+			<PostalCode>11471</PostalCode>
+			<ExtendedNumber/>
+			<PostNum/>
+		</WaselInfo>
+		<InvoiceProfile>
+			<BillCycle>1</BillCycle>
+			<BillFrequency>Monthly</BillFrequency>
+			<InvoiceComments/>
+			<InvoiceTemplate>Individual</InvoiceTemplate>
+			<LanguagePreference>Arabic</LanguagePreference>
+			<PayType/>
+			<MediaType>Email</MediaType>
+			<Currency>SAR</Currency>
+		</InvoiceProfile>
+		<LineItems>
+			<LineService>
+				<ServiceAggregatorId>1-9K3L5FR</ServiceAggregatorId>
+				<ProductAccountNumber/>
+				<DomainName/>
+				<ProductTechnology/>
+				<CPESerialNumber>48575443157AF511</CPESerialNumber>
+				<CPECertificateNumber>2102310DWX6TC1003760</CPECertificateNumber>
+				<CPEMACAddress>4CB16C157AF5</CPEMACAddress>
+				<ShortCode1/>
+				<ShortCode2/>
+				<FORTINETCPE/>
+				<CommitmentAmount/>
+				<CreditLimit/>
+				<RackId/>
+				<AccountNumber>1000120806631686</AccountNumber>
+				<ServiceAccountId>1-9K3QBRA</ServiceAccountId>
+				<PackageName>FTTH Package</PackageName>
+				<PlanType>Prepaid</PlanType>
+				<PriceList>1-7YW6</PriceList>
+				<DiscountValue/>
+				<BillFrequency>Monthly</BillFrequency>
+				<ExpiryDate>20130609023737</ExpiryDate>
+				<Attributes>
+					<Attribute>
+						<Name>Bandwidth</Name>
+						<Value>100 MB</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Commitment Months</Name>
+						<Value>17</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Duration</Name>
+						<Value>3 Month</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Installment Duration</Name>
+						<Value>1 Month</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Is Committed</Name>
+						<Value>N</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Is Installment</Name>
+						<Value>N</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Order Subtype</Name>
+						<Value>Create Account</Value>
+					</Attribute>
+					<Attribute>
+						<Name>Temp Subtype</Name>
+						<Value/>
+					</Attribute>
+					<Attribute>
+						<Name>isRelocate</Name>
+						<Value/>
+					</Attribute>
+				</Attributes>
+				<Pricing>
+					<NRC>
+						<Name>FTTH Device</Name>
+						<ActualValue>0</ActualValue>
+						<DiscountedValue>0</DiscountedValue>
+						<PromName/>
+						<DiscountPercentage>0</DiscountPercentage>
+					</NRC>
+					<NRC>
+						<Name>FTTH Subscription - Prepaid</Name>
+						<ActualValue>1380</ActualValue>
+						<DiscountedValue>1380</DiscountedValue>
+						<PromName/>
+						<DiscountPercentage>0</DiscountPercentage>
+					</NRC>
+					<NRC>
+						<Name>FTTH Setup - Prepaid</Name>
+						<ActualValue>0</ActualValue>
+						<DiscountedValue>0</DiscountedValue>
+						<PromName/>
+						<DiscountPercentage>0</DiscountPercentage>
+					</NRC>
+				</Pricing>
+			</LineService>
+		</LineItems>
+	</Order-Info>
+</MOBILY_BSL_SR>

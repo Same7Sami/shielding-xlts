@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+                <SR_HEADER>
+                                <FuncId>SUPPLEMENTARY_SERVICE</FuncId>
+                                <MsgVersion>0001</MsgVersion>
+                                <RequestorChannelId>BSL</RequestorChannelId>
+                                <SrDate>20130321092732</SrDate>
+                                <RequestorUserId>AUTORENEWAL_SERVICE</RequestorUserId>
+                                <Chargeable>Y</Chargeable>
+                                <ChargeAmount/>
+                </SR_HEADER>
+                <ServiceRequestId>SSM210320131328270</ServiceRequestId>
+                <MSISDN>966566102005</MSISDN>
+                <Operation>renewal</Operation>
+                <ServiceCode>BB_NATIONAL_SRG</ServiceCode>
+                <ServiceParentCode>BLACK_BERRY</ServiceParentCode>
+                <AR_COUNTER>6</AR_COUNTER>
+               <MDMId>1111111</MDMId>
+                <PaymentAmount>0</PaymentAmount>
+</MOBILY_BSL_SR>

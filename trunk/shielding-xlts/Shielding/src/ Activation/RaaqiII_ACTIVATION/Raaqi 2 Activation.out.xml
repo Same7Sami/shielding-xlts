@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>TEST_SR_21938138_1</requestID>
+		<DWLControl>
+			<requesterName>QAUSER</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<requestTime>20120221133841</requestTime>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>addContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<CreatedDealerId>111111</CreatedDealerId>
+								<CreatedShopId>111111</CreatedShopId>
+								<MSISDN>966540510032</MSISDN>
+								<VanityType>3</VanityType>
+								<SIM>8996631000000029954</SIM>
+								<DeviceSerialNumber />
+								<PayType>2</PayType>
+								<PUK1>3669</PUK1>
+								<PUK2>34126756</PUK2>
+								<IMSI>420030100029954</IMSI>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>1000110454454843</AdminContractId>
+							<AdminFieldNameType>8</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<StartDate />
+							<EndDate />
+							<ProductContractRelationshipType />
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt
+								</ExtendedObject>
+								<XProductContractRelationshipBObjExt>
+									<AgreementStatusType />
+									<PromotionId />
+								</XProductContractRelationshipBObjExt>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>21</AdminSystemType>
+							<ProductAdminSysKeyPartOne>1353</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<StartDate />
+							<EndDate />
+							<ProductContractRelationshipType />
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt
+								</ExtendedObject>
+								<XProductContractRelationshipBObjExt>
+									<AgreementStatusType />
+									<PromotionId />
+								</XProductContractRelationshipBObjExt>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>21</AdminSystemType>
+							<ProductAdminSysKeyPartOne>1143</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<StartDate />
+							<EndDate>sysdate</EndDate>
+							<ProductContractRelationshipType />
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt
+								</ExtendedObject>
+								<XProductContractRelationshipBObjExt>
+									<AgreementStatusType />
+									<PromotionId />
+								</XProductContractRelationshipBObjExt>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>15</AdminSystemType>
+							<ProductAdminSysKeyPartOne>ICS2</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

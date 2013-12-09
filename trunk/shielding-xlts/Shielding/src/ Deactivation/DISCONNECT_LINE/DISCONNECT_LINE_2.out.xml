@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>3410515163</requestID>
+		<DWLControl>
+			<requesterName>PF103222</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<requestTime>2011-10-27 16:30:22.000000</requestTime>
+			<clientSystemName>BSL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<Enddate>2011-10-27 16:30:22.000000</Enddate>
+						<AgreementStatusType>4</AgreementStatusType>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<CreatedDealerId />
+								<CreatedShopId />
+								<MSISDN>966542042283</MSISDN>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>6</ContractStatusType>
+						</TCRMContractComponentBObj>
+					</TCRMContractBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<Enddate>2011-10-27 16:30:22.000000</Enddate>
+							<ProductContractRelationshipType>1
+							</ProductContractRelationshipType>
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt
+								</ExtendedObject>
+								<AgreementStatusType>4</AgreementStatusType>
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>21</AdminSystemType>
+							<ProductAdminSysKeyPartOne>1270</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966542042283</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

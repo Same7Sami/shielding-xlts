@@ -1,0 +1,31 @@
+<NotifyLogMessage>
+	<ServiceRequestId>SR_3312601419</ServiceRequestId>
+	<FuncId>257</FuncId>
+	<MsgType>REQ</MsgType>
+	<FlowID>1</FlowID>
+	<MSISDN>200568496410</MSISDN>
+	<ChannelTransId>SR_1388604761</ChannelTransId>
+	<BackendsCount>0</BackendsCount>
+	<PutApplicationName>java                        </PutApplicationName>
+	<ReplyToQmgr>EESO701P</ReplyToQmgr>
+	<ID>8196808315</ID>
+	<Message>
+		<MOBILY_BSL_SR>
+			<SR_HEADER>
+				<FuncId>SKY_FULLBAR</FuncId>
+				<SecurityKey>0000</SecurityKey>
+				<MsgVersion>0000</MsgVersion>
+				<ServiceRequestId>SR_3312601419</ServiceRequestId>
+				<SrDate>20111001004049</SrDate>
+				<BackendChannel/>
+			</SR_HEADER>
+			<StatusId>4</StatusId>
+			<LineNumber>200568496410</LineNumber>
+			<FunctionName>SKY_FULLBAR</FunctionName>
+			<ChannelTransId>SR_1388604761</ChannelTransId>
+			<RequesterUserId>Sky AR</RequesterUserId>
+			<UserComment/>
+			<ReasonId>0</ReasonId>
+		</MOBILY_BSL_SR>
+	</Message>
+</NotifyLogMessage>

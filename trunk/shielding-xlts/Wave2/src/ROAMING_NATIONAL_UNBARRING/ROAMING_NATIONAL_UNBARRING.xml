@@ -1,0 +1,31 @@
+<NotifyLogMessage>
+	<ServiceRequestId>SR_3312528979</ServiceRequestId>
+	<FuncId>302</FuncId>
+	<MsgType>REQ</MsgType>
+	<FlowID>1</FlowID>
+	<MSISDN>966565550361</MSISDN>
+	<ChannelTransId>CC-48300432</ChannelTransId>
+	<BackendsCount>1</BackendsCount>
+	<PutApplicationName>java                        </PutApplicationName>
+	<ReplyToQmgr>EESO571P</ReplyToQmgr>
+	<ID>8196629918</ID>
+	<Message>
+		<MOBILY_BSL_SR>
+			<SR_HEADER>
+				<FuncId>ROAMING_NATIONAL_UNBARRING</FuncId>
+				<SecurityKey>0000</SecurityKey>
+				<MsgVersion>0000</MsgVersion>
+				<ServiceRequestId>SR_3312528979</ServiceRequestId>
+				<SrDate>20111001000826</SrDate>
+				<BackendChannel/>
+			</SR_HEADER>
+			<StatusId>1</StatusId>
+			<LineNumber>966565550361</LineNumber>
+			<FunctionName>ROAMING_NATIONAL_UNBARRING</FunctionName>
+			<ChannelTransId>CC-48300432</ChannelTransId>
+			<RequesterUserId>HUCC_SYSTEM</RequesterUserId>
+			<UserComment>High Usage System</UserComment>
+			<ReasonId>0</ReasonId>
+		</MOBILY_BSL_SR>
+	</Message>
+</NotifyLogMessage>

@@ -1,0 +1,23 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BB_SUPPSVC_UNSUBSCRIBE</FuncId>
+		<SecurityKey/>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20120307080436</SrDate>
+		<RequestorUserId>s.ali</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_PP_21969732</ServiceRequestId>
+	<ChannelTransId>QAUSER_20120306170550</ChannelTransId>
+	<MSISDN>966540511034</MSISDN>
+	<SupplementaryService>BlackBerry</SupplementaryService>
+	<ServiceType>1001</ServiceType>
+	<PlanType>BB_National</PlanType>
+	<PackageId>1267</PackageId>
+	<SrStatus>6</SrStatus>
+	<CustomerType>2</CustomerType>
+</MOBILY_BSL_SR>

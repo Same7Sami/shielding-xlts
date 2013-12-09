@@ -1,0 +1,24 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>VSMS_PROVISION</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20110611083040</SrDate>
+		<RequestorUserId>BSL</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<Chargeable>Y</Chargeable>
+		<ChargingMode/>
+		<ChargeAmount>0</ChargeAmount>
+	</SR_HEADER>
+	<NotifyBE>1</NotifyBE>
+	<LineNumber>966540511556</LineNumber>
+	<ChannelTransId>SR_2962517781_2</ChannelTransId>
+	<ReasonId/>
+	<FINAL_REPLY_QUEUE>MOBILY.FUNC.BULKSS.SUPPSERV.REPLY</FINAL_REPLY_QUEUE>
+	<FINAL_REPLY_QUEUE_MANAGER>EEAX591P</FINAL_REPLY_QUEUE_MANAGER>
+	<PARAMETER>
+		<NAME>MSISDN</NAME>
+		<VALUE>966540511556</VALUE>
+	</PARAMETER>
+</MOBILY_BSL_SR>

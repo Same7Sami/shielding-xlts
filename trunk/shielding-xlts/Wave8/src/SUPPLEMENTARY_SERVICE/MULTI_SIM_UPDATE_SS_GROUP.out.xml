@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>20130331124037</requestID>
+		<DWLControl>
+			<requesterName>ShieldingSupService</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>USSD</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt />
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ContractValueCompositeBObj>
+						<TCRMContractValueBObj>
+							<ContractValueType>43</ContractValueType>
+							<Attribute6Type>111</Attribute6Type>
+							<Attribute6String>Y</Attribute6String>
+						</TCRMContractValueBObj>
+					</ContractValueCompositeBObj>
+					<ContractValueCompositeBObj>
+						<TCRMContractValueBObj>
+							<ContractValueType>42</ContractValueType>
+							<Attribute6Type>111</Attribute6Type>
+							<Attribute6String>N</Attribute6String>
+						</TCRMContractValueBObj>
+					</ContractValueCompositeBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966543775945</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

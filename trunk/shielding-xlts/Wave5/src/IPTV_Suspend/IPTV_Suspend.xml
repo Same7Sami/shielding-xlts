@@ -1,0 +1,29 @@
+﻿<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>IPTV_SUSPENSE</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>CC</RequestorChannelId>
+		<SrDate>20130312172520</SrDate>
+		<RequestorUserId>COLLECTION_SYSTEM</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<Chargeable>N</Chargeable>
+		<ChargingMode/>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<SuspenseReason>4</SuspenseReason>
+	<AccountNumber>1000113563194778</AccountNumber>
+	<LOGIN_ID>2013.0119.0021</LOGIN_ID>
+	<DOMAIN>live.mobily.com.sa</DOMAIN>
+	<REPLYQUEUENAME>MOBILY.FUNC.CC.SUSPENSE.INTERNAL.TEST</REPLYQUEUENAME>
+	<REPLYMQUEUENAME>EESO603I</REPLYMQUEUENAME>
+	<NOTIFYBE>Y</NOTIFYBE>
+	<SuspenseDate/>
+	<ChannelTransId>COL-254876</ChannelTransId>
+	<ReasonType>2</ReasonType>
+	<UserComment>Full Barring due to non payment, please refer to collection</UserComment>
+	<PackageName>elife Double-Play</PackageName>
+	<SuspenseDateFrom/>
+	<SuspenseDateTo/>
+	<AllowDueAmtValidation>N</AllowDueAmtValidation>
+</MOBILY_BSL_SR>

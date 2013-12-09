@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>ELIFE_UAT</FuncId>
+		<SecurityKey>123</SecurityKey>
+		<MsgVersion>123</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate>20130322010611</OrderDate>
+		<OrderCreationDate>20130322010611</OrderCreationDate>
+		<RequestorUserId>80018106</RequestorUserId>
+		<RequestorLanguage>A</RequestorLanguage>
+		<DealerId>119100</DealerId>
+		<ShopId>119100</ShopId>
+		<AgentId>80018106</AgentId>
+		<OrderId>1-9YBLAP9</OrderId>
+		<OrderNumber>1-21666360429</OrderNumber>
+	</SR_HEADER>
+	<orderServiceAccount>
+		<IsNew>0</IsNew>
+		<ServiceAccountNumber>1000121666432789</ServiceAccountNumber>
+		<BillingAccountNumber>1000121666432518</BillingAccountNumber>
+		<BillCycle>1</BillCycle>
+		<BillFrequency>Monthly</BillFrequency>
+		<InvoiceTemplate>Individual</InvoiceTemplate>
+		<PackageID>3434</PackageID>
+		<PackageName>eLife Internet PostPaid</PackageName>
+		<PayType>Postpaid Plan</PayType>
+		<Currency>SAR</Currency>
+		<OrderId>1-9YBLAP9</OrderId>
+		<OrderNumber>1-21666360429</OrderNumber>
+	</orderServiceAccount>
+	<orderLineItem>
+		<currentAttributes>
+			<attribute>
+				<name>ActivationOrderNumber</name>
+				<value>1-21666360429</value>
+			</attribute>
+			<attribute>
+				<name>ServiceStartDate</name>
+				<value>20130326000000</value>
+			</attribute>
+		</currentAttributes>
+	</orderLineItem>
+</MOBILY_BSL_SR>

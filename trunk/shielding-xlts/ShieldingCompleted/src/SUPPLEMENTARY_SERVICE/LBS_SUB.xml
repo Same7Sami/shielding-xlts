@@ -1,0 +1,24 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>SUPPLEMENTARY_SERVICE</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0001</MsgVersion>
+		<RequestorChannelId>BMS</RequestorChannelId>
+		<SrDate>20120212123343</SrDate>
+		<RequestorUserId>PF101707</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>25.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_21707241</ServiceRequestId>
+	<MSISDN>966540510553</MSISDN>
+	<CustomerType>1</CustomerType>
+	<PlanType/>
+	<SupplementaryService>LBS</SupplementaryService>
+	<SubscriptionDate>20120212123343</SubscriptionDate>
+	<UnSubscriptionDate/>
+	<PackageType/>
+	<PackageId>1467</PackageId>
+	<Operation>LBS_SUB</Operation>
+	<SubscriptionType>MONTHLY</SubscriptionType>
+</MOBILY_BSL_SR>

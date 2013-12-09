@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>1355986790</requestID>
+		<DWLControl>
+			<requesterName>IVR</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<requestTime>2009-08-27 14:54:08.000000</requestTime>
+			<clientSystemName>BSL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<BarringStatusType>4</BarringStatusType>
+								<BarringReasonType>0</BarringReasonType>
+								<BarringStatusChangeDate>2009-08-27 14:54:08.000000</BarringStatusChangeDate>
+							</XContractBObjExt>
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966545042309</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

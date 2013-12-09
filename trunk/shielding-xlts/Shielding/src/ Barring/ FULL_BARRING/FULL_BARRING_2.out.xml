@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>3410553065</requestID>
+		<DWLControl>
+			<requesterName>FULL_BARRING</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<requestTime>2011-10-27 16:37:16.000000</requestTime>
+			<clientSystemName>Mediator</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<BarringStatusType>4</BarringStatusType>
+								<BarringReasonType>1</BarringReasonType>
+								<MSISDN>966565542226</MSISDN>
+								<BarringStatusChangeDate>2011-10-27 16:37:16.000000
+								</BarringStatusChangeDate>
+							</XContractBObjExt>
+						</TCRMExtension>
+					</TCRMContractBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966565542226</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

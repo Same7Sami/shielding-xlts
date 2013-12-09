@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio 6.1.18.0 - FREE Community Edition (http://www.liquid-technologies.com) -->
+<Mobily-Order>
+	<Order-Header>
+		<FuncId>RAQIII_PACKAGE_CONVERSION</FuncId>
+		<SecurityKey>123</SecurityKey>
+		<MsgVersion>123</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate>20130515092734</OrderDate>
+		<RequestorUserId>PF100197</RequestorUserId>
+		<RequestorLanguage>A</RequestorLanguage>
+		<DealerId>050155</DealerId>
+		<ShopId>050155</ShopId>
+		<AgentId>PF100197</AgentId>
+		<OrderCreationDate>20130515092734</OrderCreationDate>
+		<OrderSubmitDate>20130515092912</OrderSubmitDate>
+	</Order-Header>
+	<Order-Info>
+		<OrderNumber>1-23753841930</OrderNumber>
+		<OrderActivationDate>20130515092734</OrderActivationDate>
+		<Company>���� ���� ������</Company>
+		<CustomerCategory>Individual</CustomerCategory>
+		<CustomerType>Consumer</CustomerType>
+		<Contact>
+			<Title>�����</Title>
+			<Name>
+				<First>����</First>
+				<Middle>����</Middle>
+				<Last>������</Last>
+				<Full>���� ���� ������</Full>
+			</Name>
+			<JobTitle />
+			<Nationality>Saudi Arabia</Nationality>
+			<BirthDate>03/03/1985</BirthDate>
+			<HijriDate>10/06/1405</HijriDate>
+			<Occupation>Professional</Occupation>
+			<EmailAddress>assbe@hotmail.com</EmailAddress>
+			<Phone />
+			<MobilePhone>+966555459600</MobilePhone>
+			<Fax />
+			<Gender>M</Gender>
+			<DocIdentity>
+				<Number>1004482871</Number>
+				<Type>Saudi National ID</Type>
+				<ExpDate>04/19/2017 00:00:00</ExpDate>
+			</DocIdentity>
+		</Contact>
+		<AddressInfo>
+			<StreetAddress>���   �����</StreetAddress>
+			<City>���</City>
+			<PostalCode>21955</PostalCode>
+			<POBox>8392</POBox>
+			<Country>��������</Country>
+		</AddressInfo>
+		<WaselInfo>
+			<IsWaselCusomter>N</IsWaselCusomter>
+			<PostalCode>21955</PostalCode>
+			<ExtendedNumber />
+			<PostNum />
+		</WaselInfo>
+		<InvoiceProfile>
+			<BillCycle>1</BillCycle>
+			<BillFrequency>Monthly</BillFrequency>
+			<InvoiceComments />
+			<InvoiceTemplate>Individual</InvoiceTemplate>
+			<LanguagePreference>Arabic</LanguagePreference>
+			<PayType />
+			<MediaType>Email</MediaType>
+			<Currency>SAR</Currency>
+		</InvoiceProfile>
+		<Departments>
+			<MasterBillingAccount>100017282727929</MasterBillingAccount>
+			<ContractPeriod />
+			<NetworkConfiguration />
+			<Department>
+				<AccountNumber>100017282727929</AccountNumber>
+				<ParentAccountNumber>100017282727929</ParentAccountNumber>
+				<OrderId>1-AWUF9QI</OrderId>
+				<ProductType />
+				<Discount>
+					<Type>Silver</Type>
+					<Level />
+				</Discount>
+			</Department>
+		</Departments>
+		<ServiceAccounts>
+			<MasterBillingAccount>100017282727929</MasterBillingAccount>
+			<ServiceAccount>
+				<ServiceAccountId>1-3CG08XH</ServiceAccountId>
+				<ServiceAggregatorId>1-AWUJYBM</ServiceAggregatorId>
+				<ActivationDate>20080430090529</ActivationDate>
+				<AccountNumber>100017282826549</AccountNumber>
+				<ParentAccountNumber>100017282727929</ParentAccountNumber>
+				<ProductTechnology />
+				<PriceList>1-7YW6</PriceList>
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>PACKAGE_CONVERSION</Operation>
+				<Type>OLD</Type>
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount master="YES">
+						<MSISDN>966555459600</MSISDN>
+						<SIM>8996632012110880833</SIM>
+						<IMSI>420032200880833</IMSI>
+						<PUK1>03738117</PUK1>
+						<PUK2>77065840</PUK2>
+						<VanityType>0</VanityType>
+						<ProductInfo>
+							<Id>1353</Id>
+							<Name>mobily Raaqi II</Name>
+							<ChargeFee>
+								<Setup />
+								<Rental />
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId>1003</serviceId>
+									<Name>Rahati Service</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20121225230125</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1005</serviceId>
+									<Name>Special Unified International Rate</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20121225230125</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1012</serviceId>
+									<Name>100 International Minutes Bundle</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20121225230126</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1019</serviceId>
+									<Name>2000 National Minutes Bundle</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20121225230126</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1004</serviceId>
+									<Name>Special Unified National Rate</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20121225230126</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1035</serviceId>
+									<Name>Unlimited GPRS</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20121225230126</ActivationDate>
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DataAccounts />
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+			<ServiceAccount>
+				<ServiceAccountId>1-3CG08XH</ServiceAccountId>
+				<ServiceAggregatorId>1-AWUJXTH</ServiceAggregatorId>
+				<ActivationDate>20080430090529</ActivationDate>
+				<AccountNumber>100017282826549</AccountNumber>
+				<ParentAccountNumber>100017282727929</ParentAccountNumber>
+				<ProductTechnology />
+				<PriceList>1-7YW6</PriceList>
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>PACKAGE_CONVERSION</Operation>
+				<Type>NEW</Type>
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount master="YES">
+						<VanityType />
+						<SIM>8996631012211620350</SIM>
+						<IMSI>420032101620350</IMSI>
+						<PUK1>23480612</PUK1>
+						<PUK2>93354133</PUK2>
+						<MSISDN>966555459600</MSISDN>
+						<ProductInfo>
+							<Id>1785</Id>
+							<Name>Wajid Plus</Name>
+							<ChargeFee>
+								<Setup>150</Setup>
+								<Rental />
+							</ChargeFee>
+							<ProductFeatures />
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DataAccounts />
+				<Devices />
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+			<ServiceAccount>
+				<ServiceAccountId>1-3CG08XH</ServiceAccountId>
+				<ServiceAggregatorId>1-AWUJYBG</ServiceAggregatorId>
+				<AccountNumber>100017282826549</AccountNumber>
+				<ParentAccountNumber>100017282727929</ParentAccountNumber>
+				<ProductTechnology />
+				<PriceList>1-4ZYMZCL</PriceList>
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>SIM_SWAP</Operation>
+				<Type />
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount master="NO">
+						<MSISDN>966555459600</MSISDN>
+						<SIM>8996631012211620350</SIM>
+						<IMSI>420032101620350</IMSI>
+						<PUK1>03738117</PUK1>
+						<PUK2>77065840</PUK2>
+						<VanityType>0</VanityType>
+						<ProductInfo>
+							<Id>1353</Id>
+							<Name>SIM Card Swap</Name>
+							<ChargeFee>
+								<Setup>0</Setup>
+								<Rental>0</Rental>
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId />
+									<Name />
+									<Operation />
+									<Promotion />
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DataAccounts />
+				<Devices />
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+		</ServiceAccounts>
+		<Devices>
+			<Device>
+				<IMEI>G5J6RA1251808229</IMEI>
+				<Name>BLX_PR39_HSPAP_M_WF_R</Name>
+				<Promotion>Raqi Subsidy</Promotion>
+				<ActivationDate>20121229114124</ActivationDate>
+			</Device>
+		</Devices>
+		<Promotions>
+			<Name />
+		</Promotions>
+	</Order-Info>
+</Mobily-Order>

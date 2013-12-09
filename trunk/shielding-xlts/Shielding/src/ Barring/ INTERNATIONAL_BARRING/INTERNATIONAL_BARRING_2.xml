@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>INTERNATIONAL_BARRING</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<ServiceRequestId>SR_3032337460</ServiceRequestId>
+		<SrDate>20110705210710</SrDate>
+		<BackendChannel/>
+	</SR_HEADER>
+	<StatusId>1</StatusId>
+	<LineNumber>966542666542</LineNumber>
+	<FunctionName>INTERNATIONAL_BARRING</FunctionName>
+	<ChannelTransId>MBI-311135010</ChannelTransId>
+	<RequesterUserId>PF104223</RequesterUserId>
+	<UserComment>c.r</UserComment>
+	<ReasonId>3</ReasonId>
+</MOBILY_BSL_SR>

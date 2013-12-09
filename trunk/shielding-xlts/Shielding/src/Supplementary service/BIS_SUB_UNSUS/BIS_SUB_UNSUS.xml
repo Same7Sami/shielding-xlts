@@ -1,0 +1,35 @@
+<NotifyLogMessage>
+	<ServiceRequestId>SR_3312504866</ServiceRequestId>
+	<FuncId>985</FuncId>
+	<MsgType>REQ</MsgType>
+	<FlowID>1</FlowID>
+	<MSISDN>966547414917</MSISDN>
+	<ChannelTransId>SR_SMS_20110930235722</ChannelTransId>
+	<BackendsCount>0</BackendsCount>
+	<PutApplicationName>java                        </PutApplicationName>
+	<ReplyToQmgr>EESO811P</ReplyToQmgr>
+	<ID>8196542537</ID>
+	<Message>
+		<MOBILY_BSL_SR>
+			<SR_HEADER>
+				<FuncId>BIS_SUB_UNSUS</FuncId>
+				<SecurityKey/>
+				<ServiceRequestId>SR_3312504866</ServiceRequestId>
+				<RequestorChannelId>BSL</RequestorChannelId>
+				<SrDate>20111001000130</SrDate>
+				<BackendChannel>CC</BackendChannel>
+				<ChannelTransId>SR_SMS_20110930235722</ChannelTransId>
+			</SR_HEADER>
+			<LinesInfo>
+				<Line>
+					<DirectDebitType>5</DirectDebitType> what is 
+					<Subscriber>
+						<LineServiceID>SR_3312504866</LineServiceID>
+						<MSISDN>966547414917</MSISDN>
+					</Subscriber>
+				</Line>
+			</LinesInfo>
+			<MSISDN>966547414917</MSISDN>
+		</MOBILY_BSL_SR>
+	</Message>
+</NotifyLogMessage>

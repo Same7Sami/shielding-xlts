@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<RequestControl>
+<requestID>3960658577</requestID>
+<DWLControl>
+<requesterName>PF310193</requesterName>
+<requesterLanguage>100</requesterLanguage>
+<requestTime>2012-04-01 00:55:53.000000</requestTime>
+<clientSystemName>BSL</clientSystemName>
+</DWLControl>
+</RequestControl>
+<TCRMTx>
+<TCRMTxType>updateContractComposite</TCRMTxType>
+<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+<TCRMObject>
+<ContractCompositeBObj>
+<ContractCompositeMBObj>
+<TCRMContractBObj>
+<TCRMExtension>
+<ExtendedObject>XContractBObjExt</ExtendedObject>
+<XContractBObjExt>
+<CreatedDealerId>302500</CreatedDealerId>
+<CreatedShopId>302500</CreatedShopId>
+</XContractBObjExt>
+</TCRMExtension>
+<TCRMAdminNativeKeyBObj>
+<AdminContractId>1000110512603892</AdminContractId>
+<AdminFieldNameType>8</AdminFieldNameType>
+</TCRMAdminNativeKeyBObj>
+</TCRMContractBObj>
+<ProductContractRelationshipCompositeBObj>
+<TCRMProductContractRelationshipBObj>
+<EndDate>2012-04-01 00:55:53.000000</EndDate>
+<ProductContractRelationshipType>1</ProductContractRelationshipType>
+<TCRMExtension>
+<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+<XProductContractRelationshipBObjExt/>
+</TCRMExtension>
+</TCRMProductContractRelationshipBObj>
+<ProductAdminSysKeyBObj>
+<AdminSystemType>21</AdminSystemType>
+<ProductAdminSysKeyPartOne>1221</ProductAdminSysKeyPartOne>
+</ProductAdminSysKeyBObj>
+</ProductContractRelationshipCompositeBObj>
+<ProductContractRelationshipCompositeBObj>
+<TCRMProductContractRelationshipBObj>
+<StartDate>2012-04-01 00:55:53.000000</StartDate>
+<ProductContractRelationshipType>1</ProductContractRelationshipType>
+<TCRMExtension>
+<ExtendedObject>XProductContractRelationshipBObjExt</ExtendedObject>
+<XProductContractRelationshipBObjExt/>
+</TCRMExtension>
+</TCRMProductContractRelationshipBObj>
+<ProductAdminSysKeyBObj>
+<AdminSystemType>21</AdminSystemType>
+<ProductAdminSysKeyPartOne>1453</ProductAdminSysKeyPartOne>
+</ProductAdminSysKeyBObj>
+</ProductContractRelationshipCompositeBObj>
+<ContractValueCompositeBObj>
+<TCRMContractValueBObj>
+<ContractValueType>28</ContractValueType>
+<ValueString/>
+<StartDate>2012-04-01 00:55:53.000000</StartDate>
+<EndDate/>
+<Attribute0Type>52</Attribute0Type>
+<Attribute0String>2012-04-01</Attribute0String>
+</TCRMContractValueBObj>
+</ContractValueCompositeBObj>
+</ContractCompositeMBObj>
+</ContractCompositeBObj>
+</TCRMObject>
+</TCRMTx>
+</TCRMService>

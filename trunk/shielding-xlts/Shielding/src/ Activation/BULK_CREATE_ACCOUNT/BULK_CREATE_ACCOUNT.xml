@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BULK_CREATE_ACCOUNT</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion/>
+		<RequestorChannelId>GI0014</RequestorChannelId>
+		<SrDate>20090117171632</SrDate>
+		<ChannelTransId>SR_SM_31756</ChannelTransId>
+		<RequestorLanguage/>
+		<RequestorUserId>GI0014</RequestorUserId>
+		<RequestorLanguage/>
+		<OverwriteOpenOrder>false</OverwriteOpenOrder>
+		<ChargeAbleFlag>false</ChargeAbleFlag>
+		<ChargeAmount>0.0</ChargeAmount>
+		<NotificationType>2</NotificationType>
+		<Reason/>
+		<NotificationType>2</NotificationType>
+	</SR_HEADER>
+	<LinesInfo>
+		<Line>
+			<MSISDN>966542547692</MSISDN>
+			<PackageId/>
+			<PricingPlan>2</PricingPlan>
+		</Line>
+	</LinesInfo>
+	<SrId>SR_1093494847</SrId>
+</MOBILY_BSL_SR>

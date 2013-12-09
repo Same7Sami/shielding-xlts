@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>20130311023737</requestID>
+		<DWLControl>
+			<requesterName>FTTHActivationPre</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>addPartyWithContractsComposite</TCRMTxType>
+		<TCRMTxObject>PartyWithContractsCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<PartyWithContractsCompositeBObj>
+				<PartyCompositeBObj>
+					<PartyCompositeMBObj>
+						<TCRMPersonBObj>
+							<PartyType>P</PartyType>
+							<CreatedDate>2013-03-11 02:37:37.000000</CreatedDate>
+							<BirthDate>1961-08-11 00:00:00.000000</BirthDate>
+							<GenderType>M</GenderType>
+							<CitizenshipType>Saudi Arabia</CitizenshipType>
+							<TCRMExtension>
+								<ExtendedObject>XPersonBObjExt</ExtendedObject>
+								<XPersonBObjExt>
+									<BirthDateHijri>28021381</BirthDateHijri>
+									<JobTitle />
+									<OccupationType />
+									<BirthDateFormatType>2</BirthDateFormatType>
+									<ELMVerifiedFlag>N</ELMVerifiedFlag>
+									<CreatedUser>80018106</CreatedUser>
+									<CreatedDealerId>119100</CreatedDealerId>
+									<CreatedShopId>119100</CreatedShopId>
+								</XPersonBObjExt>
+							</TCRMExtension>
+							<TCRMPartyIdentificationBObj>
+								<IdentificationType>Saudi National ID</IdentificationType>
+								<IdentificationNumber>1024123141</IdentificationNumber>
+								<IdentificationExpiryDate>2031-06-28 00:00:00.000000
+								</IdentificationExpiryDate>
+								<TCRMExtension>
+									<ExtendedObject>XPartyIdentificationBObjExt</ExtendedObject>
+									<XPartyIdentificationBObjExt>
+										<DateFormatType>2</DateFormatType>
+									</XPartyIdentificationBObjExt>
+								</TCRMExtension>
+							</TCRMPartyIdentificationBObj>
+							<TCRMAdminContEquivBObj>
+								<AdminPartyId>10233659842213</AdminPartyId>
+								<AdminSystemType>1</AdminSystemType>
+							</TCRMAdminContEquivBObj>
+							<TCRMPersonNameBObj>
+								<NameUsageType>1</NameUsageType>
+								<PrefixType>'D3J/</PrefixType>
+								<GivenNameOne>3'E1</GivenNameOne>
+								<GivenNameTwo>E-E/</GivenNameTwo>
+								<LastName>'D.'D/J</LastName>
+								<TCRMExtension>
+									<ExtendedObject>XPersonNameBObjExt</ExtendedObject>
+									<XPersonNameBObjExt>
+										<FullName>3'E1 E-E/ 'D.'D/J</FullName>
+									</XPersonNameBObjExt>
+								</TCRMExtension>
+							</TCRMPersonNameBObj>
+						</TCRMPersonBObj>
+					</PartyCompositeMBObj>
+				</PartyCompositeBObj>
+				<ContractCompositeBObj>
+					<ContractCompositeMBObj>
+						<TCRMContractBObj>
+							<ContractLangType>1100</ContractLangType>
+							<CurrencyType>14</CurrencyType>
+							<FrequencyModeType>5</FrequencyModeType>
+							<SignedDate>2013-03-11 02:37:37.000000</SignedDate>
+							<AgreementStatusType>5</AgreementStatusType>
+							<TCRMExtension>
+								<ExtendedObject>XContractBObjExt</ExtendedObject>
+								<XContractBObjExt>
+									<UserCreatedRecord>80018106</UserCreatedRecord>
+									<CreatedDealerId>119100</CreatedDealerId>
+									<CreatedShopId>119100</CreatedShopId>
+									<BillCycleType>1</BillCycleType>
+									<SrviceBillingIndicator>B</SrviceBillingIndicator>
+									<BillPreferenceType>2</BillPreferenceType>
+									<InvoiceTemplateType>6</InvoiceTemplateType>
+								</XContractBObjExt>
+							</TCRMExtension>
+							<TCRMContractComponentBObj>
+								<ContractStatusType>7</ContractStatusType>
+							</TCRMContractComponentBObj>
+							<TCRMAdminNativeKeyBObj>
+								<AdminContractId>1000120806631356</AdminContractId>
+								<AdminFieldNameType>9</AdminFieldNameType>
+							</TCRMAdminNativeKeyBObj>
+						</TCRMContractBObj>
+						<TCRMAdminContEquivBObj>
+							<AdminPartyId>10233659842213</AdminPartyId>
+							<AdminSystemType>1</AdminSystemType>
+						</TCRMAdminContEquivBObj>
+					</ContractCompositeMBObj>
+					<ContractCompositeMBObj>
+						<TCRMContractBObj>
+							<ContractLangType>1100</ContractLangType>
+							<CurrencyType>14</CurrencyType>
+							<SignedDate>2013-03-11 02:37:37.000000</SignedDate>
+							<AgreementStatusType>5</AgreementStatusType>
+							<AgreementType>6</AgreementType>
+							<TCRMExtension>
+								<ExtendedObject>XContractBObjExt</ExtendedObject>
+								<XContractBObjExt>
+									<UserCreatedRecord>80018106</UserCreatedRecord>
+									<CreatedDealerId>119100</CreatedDealerId>
+									<CreatedShopId>119100</CreatedShopId>
+									<SrviceBillingIndicator>S</SrviceBillingIndicator>
+									<DeviceSerialNumber>48575443157AF511</DeviceSerialNumber>
+									<CPEDCN>2102310DWX6TC1003760</CPEDCN>
+									<PayType>1</PayType>
+									<NetworkStatusType>1</NetworkStatusType>
+									<CPEMacAddress>4CB16C157AF5</CPEMacAddress>
+									<ExpiryDate>2013-06-09 02:37:37.000000</ExpiryDate>
+								</XContractBObjExt>
+							</TCRMExtension>
+							<TCRMContractComponentBObj>
+								<ContractStatusType>7</ContractStatusType>
+							</TCRMContractComponentBObj>
+							<TCRMAdminNativeKeyBObj>
+								<AdminContractId>1000120806631686</AdminContractId>
+								<AdminFieldNameType>8</AdminFieldNameType>
+							</TCRMAdminNativeKeyBObj>
+						</TCRMContractBObj>
+						<ContractRelationshipCompositeBObj>
+							<TCRMContractRelationshipBObj>
+								<RelationshipType>1</RelationshipType>
+								<RelationshipValue>Child</RelationshipValue>
+								<RelationshipStatusType>1</RelationshipStatusType>
+								<TCRMExtension>
+									<ExtendedObject>XContractRelationshipBObjExt
+														</ExtendedObject>
+									<XContractRelationshipBObjExt />
+								</TCRMExtension>
+								<TCRMAdminNativeKeyBObj>
+									<AdminContractId>1000120806631356</AdminContractId>
+									<AdminFieldNameType>9</AdminFieldNameType>
+								</TCRMAdminNativeKeyBObj>
+							</TCRMContractRelationshipBObj>
+						</ContractRelationshipCompositeBObj>
+						<ProductContractRelationshipCompositeBObj>
+							<TCRMProductContractRelationshipBObj>
+								<ProductContractRelationshipType>1
+								</ProductContractRelationshipType>
+								<TCRMExtension>
+									<ExtendedObject>XProductContractRelationshipBObjExt
+									</ExtendedObject>
+									<XProductContractRelationshipBObjExt />
+								</TCRMExtension>
+							</TCRMProductContractRelationshipBObj>
+							<ProductAdminSysKeyBObj>
+								<AdminSystemType>21</AdminSystemType>
+								<ProductAdminSysKeyPartOne>6000</ProductAdminSysKeyPartOne>
+							</ProductAdminSysKeyBObj>
+						</ProductContractRelationshipCompositeBObj>
+						<TCRMAdminContEquivBObj>
+							<AdminPartyId>10233659842213</AdminPartyId>
+							<AdminSystemType>1</AdminSystemType>
+						</TCRMAdminContEquivBObj>
+						<ContractValueCompositeBObj>
+							<TCRMContractValueBObj>
+								<ContractValueType>31</ContractValueType>
+								<Attribute1Type>96</Attribute1Type>
+								<Attribute1String>100 MB</Attribute1String>
+								<Attribute2Type>97</Attribute2Type>
+								<Attribute2String>3 Month</Attribute2String>
+							</TCRMContractValueBObj>
+						</ContractValueCompositeBObj>
+					</ContractCompositeMBObj>
+				</ContractCompositeBObj>
+			</PartyWithContractsCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>OG_BARRING</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<ServiceRequestId>SR_3407679699</ServiceRequestId>
+		<SrDate>20111027061433</SrDate>
+		<BackendChannel/>
+	</SR_HEADER>
+	<StatusId>3</StatusId>
+	<LineNumber>966540660055</LineNumber>
+	<FunctionName>OG_BARRING</FunctionName>
+	<ChannelTransId>COL-ROAMER_1319600191104_2113218</ChannelTransId>
+	<RequesterUserId>COLLECTION_SYSTEM</RequesterUserId>
+	<UserComment>OG Barring due to non payment, please refer to collection [966540660055]</UserComment>
+	<ReasonId>5</ReasonId>
+</MOBILY_BSL_SR>

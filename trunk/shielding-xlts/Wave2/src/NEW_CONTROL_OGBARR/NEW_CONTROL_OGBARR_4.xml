@@ -1,0 +1,17 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>NEW_CONTROL_OGBARR</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<ServiceRequestId>SR_1338919618</ServiceRequestId>
+		<SrDate>20090807000505</SrDate>
+		<BackendChannel>CC</BackendChannel>
+	</SR_HEADER>
+	<StatusId>1</StatusId>
+	<LineNumber>966548810085</LineNumber>
+	<FunctionName>NEW_CONTROL_OGBARR</FunctionName>
+	<ChannelTransId>AR_0708200900043262724</ChannelTransId>
+	<RequesterUserId>Pre2Post</RequesterUserId>
+	<UserComment/>
+	<ReasonId>0</ReasonId>
+</MOBILY_BSL_SR>

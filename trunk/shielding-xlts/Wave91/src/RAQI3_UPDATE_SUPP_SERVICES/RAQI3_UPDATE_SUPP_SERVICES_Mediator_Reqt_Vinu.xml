@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>RAQI3_UPDATE_SUPP_SERVICES</FuncId>
+		<SecurityKey />
+		<MsgVersion>0001</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate>20131126112258</OrderDate>
+		<RequestorUserId>123</RequestorUserId>
+		<ServiceRequestId>TEST_SR_1123620160</ServiceRequestId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<DealerId>060066</DealerId>
+		<ShopId>060066</ShopId>
+		<AgentId>NEHAGIBM</AgentId>
+		<OrderCreationDate>20131126112258</OrderCreationDate>
+		<OrderSubmitDate>20131126112258</OrderSubmitDate>
+	</SR_HEADER>
+	<Order-Info>
+		<OrderNumber />
+		<OrderActivationDate />
+		<Company />
+		<CustomerCategory>Individual</CustomerCategory>
+		<CustomerType>Consumer</CustomerType>
+		<CUG_Id />
+		<Contact>
+			<Title>Mr.</Title>
+			<Name>
+				<First>QATESTMANMOY</First>
+				<Middle />
+				<Last>SIT</Last>
+				<Full>QATESTMANMOY SIT</Full>
+			</Name>
+			<JobTitle />
+			<Nationality />
+			<BirthDate>19810711000000</BirthDate>
+			<HijriDate>14010111000000</HijriDate>
+			<Occupation>Professional</Occupation>
+			<EmailAddress>m.mohanty.ibm@mobily.com.sa</EmailAddress>
+			<Phone />
+			<MobilePhone>+966512345678</MobilePhone>
+			<Fax />
+			<Gender>M</Gender>
+			<DocIdentity>
+				<Number>M1911201302</Number>
+				<Type>Passport</Type>
+				<ExpDate />
+			</DocIdentity>
+		</Contact>
+		<AddressInfo>
+			<StreetAddress>Bangalore</StreetAddress>
+			<City>Riyadh</City>
+			<PostalCode>00602</PostalCode>
+			<POBox>12345</POBox>
+			<Country>Saudi Arabia</Country>
+		</AddressInfo>
+		<WaselInfo>
+			<IsWaselCusomter>N</IsWaselCusomter>
+			<PostalCode>00602</PostalCode>
+			<ExtendedNumber />
+			<PostNum>12345</PostNum>
+		</WaselInfo>
+		<InvoiceProfile>
+			<BillCycle>1</BillCycle>
+			<BillFrequency>Monthly</BillFrequency>
+			<InvoiceComments />
+			<InvoiceTemplate>Individual</InvoiceTemplate>
+			<LanguagePreference>English</LanguagePreference>
+			<PayType />
+			<MediaType>Postal</MediaType>
+			<Currency />
+		</InvoiceProfile>
+		<Departments>
+			<MasterBillingAccount>1000114646340430</MasterBillingAccount>
+			<ContractPeriod />
+			<NetworkConfiguration />
+			<Department>
+				<AccountNumber>1000114646340430</AccountNumber>
+				<ParentAccountNumber>1000114646340430</ParentAccountNumber>
+				<OrderId>1-6QW72FW</OrderId>
+				<ProductType />
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+			</Department>
+		</Departments>
+		<ServiceAccounts>
+			<MasterBillingAccount>1000114646340430</MasterBillingAccount>
+			<ServiceAccount>
+				<ServiceAccountRequestID>TEST_SR_1123620160_1
+				</ServiceAccountRequestID>
+				<ServiceAccountId />
+				<ServiceAggregatorId />
+				<AccountNumber>1000114646340444</AccountNumber>
+				<ParentAccountNumber>1000114646340430</ParentAccountNumber>
+				<ActivationDate />
+				<ProductTechnology />
+				<PriceList>1-7YW6</PriceList>
+				<DetailedInvoice />
+				<MNPFlag>N</MNPFlag>
+				<MNPDonor />
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>UPDATE_SUPP_SERVICES</Operation>
+				<Type>NEW</Type>
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount>
+						<MSISDN>966542133776</MSISDN>
+						<SIM>8996631000000051007</SIM>
+						<IMSI>420030100051007</IMSI>
+						<PUK1>34126756</PUK1>
+						<PUK2>54266175</PUK2>
+						<VanityType>0</VanityType>
+						<ProductInfo>
+							<Id>1825</Id>
+							<Name>RAQI</Name>
+							<ChargeFee>
+								<Setup>0.0</Setup>
+								<Rental>900.0</Rental>
+								<MODE />
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId>3041</serviceId>
+									<Name>Additional SIM</Name>
+									<Operation>ADD</Operation>
+									<Attribute>
+										<Name>SIM</Name>
+										<Value>8996631000000051018</Value>
+									</Attribute>
+									<Attribute>
+										<Name>Chargeable</Name>
+										<Value>N</Value>
+									</Attribute>
+									<Attribute>
+										<Name>IMSI</Name>
+										<Value>420030100051018</Value>
+									</Attribute>
+									<Attribute>
+										<Name>Puk1</Name>
+										<Value>34126756</Value>
+									</Attribute>
+									<Attribute>
+										<Name>Puk2</Name>
+										<Value>54266175</Value>
+									</Attribute>
+									<Attribute>
+										<Name>GPRS_Enabled</Name>
+										<Value>Y</Value>
+									</Attribute>
+								</Service>
+								<Service>
+									<serviceId>3041</serviceId>
+									<Name>Additional SIM</Name>
+									<Operation>ADD</Operation>
+									<Attribute>
+										<Name>SIM</Name>
+										<Value>8996631000000051019</Value>
+									</Attribute>
+									<Attribute>
+										<Name>Chargeable</Name>
+										<Value>N</Value>
+									</Attribute>
+									<Attribute>
+										<Name>IMSI</Name>
+										<Value>420030100051019</Value>
+									</Attribute>
+									<Attribute>
+										<Name>Puk1</Name>
+										<Value>34126756</Value>
+									</Attribute>
+									<Attribute>
+										<Name>Puk2</Name>
+										<Value>54266175</Value>
+									</Attribute>
+									<Attribute>
+										<Name>GPRS_Enabled</Name>
+										<Value>Y</Value>
+									</Attribute>
+								</Service>
+								<Service>
+									<serviceId>3016</serviceId>
+									<Name>Raqi 3 Family Package</Name>
+									<Operation>ADD</Operation>
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DATAACCOUNTS />
+				<Devices>
+					<Device>
+						<IMEI />
+					</Device>
+				</Devices>
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+		</ServiceAccounts>
+		<Devices>
+			<Device>
+				<IMEI />
+			</Device>
+		</Devices>
+		<Promotions>
+			<Name />
+		</Promotions>
+	</Order-Info>
+</MOBILY_BSL_SR>

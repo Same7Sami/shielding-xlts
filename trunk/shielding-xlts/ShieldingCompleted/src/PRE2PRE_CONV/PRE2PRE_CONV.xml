@@ -1,0 +1,19 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>PRE2PRE_CONV</FuncId>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<ServiceRequestId>SR_3951613462</ServiceRequestId>
+		<SrDate>20120329060344</SrDate>
+		<RequestorUserId>db2admin</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<ReturnCode>0000</ReturnCode>
+	</SR_HEADER>
+	<MSISDN>966548513298</MSISDN>
+	<OldPackageId>1490</OldPackageId>
+	<OldPackageName>7ala international - Hajj Offer</OldPackageName>
+	<NewPackageId>1347</NewPackageId>
+	<NewPackageName>7ala_plus_TM1213a</NewPackageName>
+	<IMEI>
+	</IMEI>
+</MOBILY_BSL_SR>

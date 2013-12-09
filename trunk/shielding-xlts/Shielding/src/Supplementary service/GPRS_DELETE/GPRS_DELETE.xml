@@ -1,0 +1,22 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>GPRS_DELETE</FuncId>
+		<SecurityKey>kjasdhfjk48938jkdhf</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20080720233634</SrDate>
+		<RequestorUserId>s.ali</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<OverwriteOpenOrder>N</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_866599519</ServiceRequestId>
+	<MSISDN>966545831700</MSISDN>
+	<CustomerType>1</CustomerType>
+	<SupplementaryService>GPRS</SupplementaryService>
+	<PackageType>1GB</PackageType>
+	<GPRSPackageId>1186</GPRSPackageId>
+	<Operation>GPRS_DELETE</Operation>
+	<SubscriptionType>monthly</SubscriptionType>
+</MOBILY_BSL_SR>

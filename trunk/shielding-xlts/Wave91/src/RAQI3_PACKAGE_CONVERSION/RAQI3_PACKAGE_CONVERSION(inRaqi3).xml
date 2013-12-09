@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio 6.1.18.0 - FREE Community Edition (http://www.liquid-technologies.com) -->
+<Mobily-Order>
+	<Order-Header>
+		<FuncId>RAQI3_PACKAGE_CONVERSION</FuncId>
+		<SecurityKey>123</SecurityKey>
+		<MsgVersion>123</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate>20130505090613</OrderDate>
+		<RequestorUserId>PF102468</RequestorUserId>
+		<RequestorLanguage>A</RequestorLanguage>
+		<DealerId>050099</DealerId>
+		<ShopId>050099</ShopId>
+		<AgentId>PF102468</AgentId>
+		<OrderCreationDate>20130505090613</OrderCreationDate>
+		<OrderSubmitDate>20130505090929</OrderSubmitDate>
+	</Order-Header>
+	<Order-Info>
+		<OrderNumber>1-23397412582</OrderNumber>
+		<OrderActivationDate>20130505090613</OrderActivationDate>
+		<Company>����� ��� ������</Company>
+		<CustomerCategory>Individual</CustomerCategory>
+		<CustomerType>Consumer</CustomerType>
+		<CUG_Id />
+		<Contact>
+			<Title>�����</Title>
+			<Name>
+				<First>�����</First>
+				<Middle>���</Middle>
+				<Last>������</Last>
+				<Full>����� ��� ������</Full>
+			</Name>
+			<JobTitle />
+			<Nationality>Saudi Arabia</Nationality>
+			<BirthDate>11/10/1987</BirthDate>
+			<HijriDate>18/03/1408</HijriDate>
+			<Occupation>Professional</Occupation>
+			<EmailAddress>salman-ali-2009@hotmail.com</EmailAddress>
+			<Phone>+96672217556</Phone>
+			<MobilePhone>+966507752084</MobilePhone>
+			<Fax />
+			<Gender>M</Gender>
+			<DocIdentity>
+				<Number>1078908207</Number>
+				<Type>Saudi National ID</Type>
+				<ExpDate>03/03/2019 00:00:00</ExpDate>
+			</DocIdentity>
+		</Contact>
+		<AddressInfo>
+			<StreetAddress>���� ����</StreetAddress>
+			<City>���� ����</City>
+			<PostalCode>61961</PostalCode>
+			<POBox>3227</POBox>
+			<Country>Saudi Arabia</Country>
+		</AddressInfo>
+		<WaselInfo>
+			<IsWaselCusomter>N</IsWaselCusomter>
+			<PostalCode>61961</PostalCode>
+			<ExtendedNumber />
+			<PostNum />
+		</WaselInfo>
+		<InvoiceProfile>
+			<BillCycle>1</BillCycle>
+			<BillFrequency>Monthly</BillFrequency>
+			<InvoiceComments />
+			<InvoiceTemplate>Individual</InvoiceTemplate>
+			<LanguagePreference>Arabic</LanguagePreference>
+			<PayType />
+			<MediaType>Postal</MediaType>
+			<Currency>SAR</Currency>
+		</InvoiceProfile>
+		<Departments>
+			<MasterBillingAccount>100019403213471</MasterBillingAccount>
+			<ContractPeriod />
+			<NetworkConfiguration />
+			<Department>
+				<AccountNumber>100019403213471</AccountNumber>
+				<ParentAccountNumber>100019403213471</ParentAccountNumber>
+				<OrderId>1-AQY7R3A</OrderId>
+				<ProductType />
+				<Discount>
+					<Type>Silver</Type>
+					<Level />
+				</Discount>
+			</Department>
+		</Departments>
+		<ServiceAccounts>
+			<MasterBillingAccount>100019403213471</MasterBillingAccount>
+			<ServiceAccount>
+				<ServiceAccountId>1-4BIFHYF</ServiceAccountId>
+				<ServiceAggregatorId>1-AQY9LCW</ServiceAggregatorId>
+				<ActivationDate />
+				<AccountNumber>100019403213479</AccountNumber>
+				<ParentAccountNumber>100019403213471</ParentAccountNumber>
+				<ProductTechnology />
+				<PriceList>1-7YW6</PriceList>
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>PACKAGE_CONVERSION</Operation>
+				<Type>OLD</Type>
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount master="YES">
+						<MSISDN>966562662267</MSISDN>
+						<SIM>8996631012111454725</SIM>
+						<IMSI>420032101454725</IMSI>
+						<PUK1>41497874</PUK1>
+						<PUK2>42636915</PUK2>
+						<VanityType>0</VanityType>
+						<ProductInfo>
+							<Id>1353</Id>
+							<Name>mobily Raaqi II</Name>
+							<ChargeFee>
+								<Setup />
+								<Rental />
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId>1007</serviceId>
+									<Name>500 National Minutes Bundle</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20120903102753</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1003</serviceId>
+									<Name>Rahati Service</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20120903102753</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1019</serviceId>
+									<Name>2000 National Minutes Bundle</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20120903102754</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1004</serviceId>
+									<Name>Special Unified National Rate</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20120903102756</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1035</serviceId>
+									<Name>Unlimited GPRS</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20120903102757</ActivationDate>
+								</Service>
+								<Service>
+									<serviceId>1017</serviceId>
+									<Name>Additional SIM for Family Members</Name>
+									<Operation>DELETE</Operation>
+									<Promotion />
+									<ActivationDate>20120930221833</ActivationDate>
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DataAccounts />
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+			<ServiceAccount>
+				<ServiceAccountId>1-4BIFHYF</ServiceAccountId>
+				<ServiceAggregatorId>1-AQY7R3Y</ServiceAggregatorId>
+				<AccountNumber>100019403213479</AccountNumber>
+				<ParentAccountNumber>100019403213471</ParentAccountNumber>
+				<ProductTechnology />
+				<PriceList>1-7YW6</PriceList>
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>PACKAGE_CONVERSION</Operation>
+				<Type>NEW</Type>
+				<Discount>
+					<Type/>
+					<Level/>
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount master="YES">
+						<MSISDN>966562662267</MSISDN>
+						<SIM>8996631013211845364</SIM>
+						<IMSI>420032101845364</IMSI>
+						<PUK1>73024322</PUK1>
+						<PUK2>23386253</PUK2>
+						<VanityType />
+						<ProductInfo>
+							<Id>1825</Id>
+							<Name>RAQI</Name>
+							<ChargeFee>
+								<Setup />
+								<Rental />
+								<Attributes />
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId>3041</serviceId>
+									<Name>Additional SIM</Name>
+									<Operation>ADD</Operation>
+									<Attribute>
+										<name>SIM_ID</name>
+										<Value>4</Value>
+									</Attribute>
+									<Attribute>
+										<name>SIM</name>
+										<Value>8996631011121157599</Value>
+									</Attribute>
+									<Attribute>
+										<name>Chargeable</name>
+										<Value>N</Value>
+									</Attribute>
+									<Attribute>
+										<name>IMSI</name>
+										<Value>420032101157599</Value>
+									</Attribute>
+									<Attribute>
+										<name>Puk1</name>
+										<Value>70644030</Value>
+									</Attribute>
+									<Attribute>
+										<name>Puk2</name>
+										<Value>69909363</Value>
+									</Attribute>
+									<Attribute>
+										<name>GPRS_Enabled</name>
+										<Value>Y</Value>
+									</Attribute>
+								</Service>
+								<Service>
+									<serviceId>3041</serviceId>
+									<Name>Additional SIM</Name>
+									<Operation>ADD</Operation>
+									<Attribute>
+										<name>SIM_ID</name>
+										<Value>4</Value>
+									</Attribute>
+									<Attribute>
+										<name>SIM</name>
+										<Value>8996631011121157542</Value>
+									</Attribute>
+									<Attribute>
+										<name>Chargeable</name>
+										<Value>N</Value>
+									</Attribute>
+									<Attribute>
+										<name>IMSI</name>
+										<Value>420032101157542</Value>
+									</Attribute>
+									<Attribute>
+										<name>Puk1</name>
+										<Value>91931383</Value>
+									</Attribute>
+									<Attribute>
+										<name>Puk2</name>
+										<Value>07773152</Value>
+									</Attribute>
+									<Attribute>
+										<name>GPRS_Enabled</name>
+										<Value>Y</Value>
+									</Attribute>
+								</Service>
+								<Service>
+									<serviceId>3008</serviceId>
+									<Promotion />
+									<Name>Rahati</Name>
+									<Operation>ADD</Operation>
+								</Service>
+								<Service>
+									<serviceId>3016</serviceId>
+									<Promotion />
+									<Name>Raqi 3 Family Package</Name>
+									<Operation>ADD</Operation>
+								</Service>
+								<Service>
+									<serviceId>3016</serviceId>
+									<Promotion />
+									<Name>Raqi 3 Family Package</Name>
+									<Operation>ADD</Operation>
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+						<Devices />
+						<Promotions>
+							<Name />
+						</Promotions>
+					</GSMAccount>
+				</GSMAccounts>
+				<DataAccounts />
+				<Devices />
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+			<ServiceAccount>
+				<ServiceAccountId>1-4BIFHYF</ServiceAccountId>
+				<ServiceAggregatorId>1-AQY9LCL</ServiceAggregatorId>
+				<AccountNumber>100019403213479</AccountNumber>
+				<ParentAccountNumber>100019403213471</ParentAccountNumber>
+				<ProductTechnology />
+				<PriceList>1-4ZYMZCL</PriceList>
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>SIM_SWAP</Operation>
+				<Type />
+				<Discount>
+					<Type />
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount master="NO">
+						<MSISDN>966562662267</MSISDN>
+						<SIM>8996631013211845364</SIM>
+						<IMSI>420032101845364</IMSI>
+						<PUK1>41497874</PUK1>
+						<PUK2>42636915</PUK2>
+						<VanityType>0</VanityType>
+						<ProductInfo>
+							<Id>1353</Id>
+							<Name>SIM Card Swap</Name>
+							<ChargeFee>
+								<Setup>0                                                        </Setup>
+								<Rental>0                                                        </Rental>
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId />
+									<Name />
+									<Operation />
+									<Promotion />
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DataAccounts />
+				<Devices />
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+		</ServiceAccounts>
+		<Devices>
+			<Device>
+				<IMEI>01138016210</IMEI>
+				<Name>SW_AirCard_312U_BDL</Name>
+				<Promotion>Raqi Subsidy</Promotion>
+				<ActivationDate>20120903130821</ActivationDate>
+			</Device>
+		</Devices>
+		<Promotions>
+			<Name />
+		</Promotions>
+	</Order-Info>
+</Mobily-Order>

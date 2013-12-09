@@ -1,0 +1,15 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>BB_SUPPSVC_DEALCHANGE</FuncId>
+		<SecurityKey/>
+		<ServiceRequestId>SR_633968783</ServiceRequestId>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>BSL</RequestorChannelId>
+		<SrDate>20080119175538</SrDate>
+		<BackendChannel>NETWORK</BackendChannel>
+	</SR_HEADER>
+	<MSISDN>966541229991</MSISDN>
+	<IMSI>420032131555729</IMSI>
+	<ServiceClass>2011</ServiceClass> what is Service Class
+	<SubscriptionType>2</SubscriptionType> what is subscription Type and it LOV
+</MOBILY_BSL_SR>

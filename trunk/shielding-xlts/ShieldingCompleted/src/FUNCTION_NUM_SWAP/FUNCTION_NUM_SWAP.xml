@@ -1,0 +1,34 @@
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>FUNCTION_NUM_SWAP</FuncId>
+		<SecurityKey/>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<SrDate>20111109163212</SrDate>
+		<RequestorUserId>PF101291</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<ServiceRequestId>SR_3463685893</ServiceRequestId>
+		<OverwriteOpenOrder>Y</OverwriteOpenOrder>
+		<Chargeable>Y</Chargeable>
+		<ChargingMode>Payment</ChargingMode>
+		<ChargeAmount>0</ChargeAmount>
+		<Reason>SIM_NUM_SWAP</Reason>
+	</SR_HEADER>
+	<DEALERID>050068</DEALERID>
+	<SHOPID>050068</SHOPID>
+	<AGENTID>PF101291</AGENTID>
+	<BillingNumber>1000116201445064</BillingNumber>
+	<OriginalMSISDN>966565378878</OriginalMSISDN>
+	<NEWMSISDN>966565550297</NEWMSISDN>
+	<OriginalSIM>8996632710223335215</OriginalSIM>
+	<NewSIM/>
+	<OriginalIMSI>420032273335215</OriginalIMSI>
+	<NewIMSI/>
+	<OriginalPUK1>23635571</OriginalPUK1>
+	<NewPUK1/>
+	<OriginalPUK2>15053170</OriginalPUK2>
+	<NewPUK2/>
+	<PackageCode>1453</PackageCode>
+	<CustomerType>2</CustomerType>
+	<Comments>SIM Swap enhanced version 3.1</Comments>
+</MOBILY_BSL_SR>

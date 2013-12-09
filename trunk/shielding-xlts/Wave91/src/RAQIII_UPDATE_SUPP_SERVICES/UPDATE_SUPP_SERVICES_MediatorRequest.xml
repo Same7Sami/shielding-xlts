@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>UPDATE_SUPP_SERVICES</FuncId>
+		<SecurityKey />
+		<MsgVersion>0001</MsgVersion>
+		<RequestorChannelId>SIEBEL</RequestorChannelId>
+		<OrderDate>20131113101241</OrderDate>
+		<RequestorUserId>123</RequestorUserId>
+		<ServiceRequestId>TEST_SR_1123518069</ServiceRequestId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<DealerId>060066</DealerId>
+		<ShopId>060066</ShopId>
+		<AgentId>ANANDSIBM</AgentId>
+		<OrderCreationDate>20131113101241</OrderCreationDate>
+		<OrderSubmitDate>20131113101241</OrderSubmitDate>
+	</SR_HEADER>
+	<Order-Info>
+		<OrderNumber />
+		<OrderActivationDate />
+		<Company />
+		<CustomerCategory>Individual</CustomerCategory>
+		<CustomerType>Consumer</CustomerType>
+		<CUG_Id />
+		<Contact>
+			<Title>Mr.</Title>
+			<Name>
+				<First>QATEST</First>
+				<Middle />
+				<Last>QATEST</Last>
+				<Full>QATEST QATEST</Full>
+			</Name>
+			<JobTitle />
+			<Nationality />
+			<BirthDate>19900110000000</BirthDate>
+			<HijriDate>14110311000000</HijriDate>
+			<Occupation />
+			<EmailAddress>fraz@mobily.com.sa</EmailAddress>
+			<Phone />
+			<MobilePhone>+966512341234</MobilePhone>
+			<Fax />
+			<Gender>M</Gender>
+			<DocIdentity>
+				<Number>FRZ611C</Number>
+				<Type>Commercial Registration ID</Type>
+				<ExpDate />
+			</DocIdentity>
+		</Contact>
+		<AddressInfo>
+			<StreetAddress>Mesra</StreetAddress>
+			<City>Riyadh</City>
+			<PostalCode>00501</PostalCode>
+			<POBox>12121</POBox>
+			<Country>Saudi Arabia</Country>
+		</AddressInfo>
+		<WaselInfo>
+			<IsWaselCusomter>N</IsWaselCusomter>
+			<PostalCode>00501</PostalCode>
+			<ExtendedNumber />
+			<PostNum>12121</PostNum>
+		</WaselInfo>
+		<InvoiceProfile>
+			<BillCycle>7</BillCycle>
+			<BillFrequency>Monthly</BillFrequency>
+			<InvoiceComments />
+			<InvoiceTemplate>Individual</InvoiceTemplate>
+			<LanguagePreference>Arabic</LanguagePreference>
+			<PayType />
+			<MediaType>Postal</MediaType>
+			<Currency />
+		</InvoiceProfile>
+		<Departments>
+			<MasterBillingAccount>1000114475967460</MasterBillingAccount>
+			<ContractPeriod />
+			<NetworkConfiguration />
+			<Department>
+				<AccountNumber>1000114475967460</AccountNumber>
+				<ParentAccountNumber>1000114475967460</ParentAccountNumber>
+				<OrderId>1-6OLT46T</OrderId>
+				<ProductType />
+				<Discount>
+					<Type>Octop Business</Type>
+					<Level />
+				</Discount>
+			</Department>
+		</Departments>
+		<ServiceAccounts>
+			<MasterBillingAccount>1000114475967460</MasterBillingAccount>
+			<ServiceAccount>
+				<ServiceAccountRequestID>TEST_SR_1123518069_2
+				</ServiceAccountRequestID>
+				<ServiceAccountId />
+				<ServiceAggregatorId />
+				<AccountNumber>1000114475979042</AccountNumber>
+				<ParentAccountNumber>1000114475967460</ParentAccountNumber>
+				<ActivationDate />
+				<ProductTechnology />
+				<PriceList>1-7YW6</PriceList>
+				<DetailedInvoice />
+				<MNPFlag>N</MNPFlag>
+				<MNPDonor />
+				<PricingPlan>Postpaid</PricingPlan>
+				<ProductType />
+				<Operation>UPDATE_SUPP_SERVICES</Operation>
+				<Type />
+				<Discount>
+					<Type>Octop Business</Type>
+					<Level />
+				</Discount>
+				<GSMAccounts>
+					<GSMAccount>
+						<MSISDN>966540574865</MSISDN>
+						<SIM>8996631000000025749</SIM>
+						<IMSI>420030100025749</IMSI>
+						<PUK1>34126756</PUK1>
+						<PUK2>54266175</PUK2>
+						<VanityType>2</VanityType>
+						<ProductInfo>
+							<Id>1486</Id>
+							<Name>Octopus II</Name>
+							<ChargeFee>
+								<Setup>0.0</Setup>
+								<Rental>240.0</Rental>
+								<MODE />
+							</ChargeFee>
+							<ProductFeatures>
+								<Service>
+									<serviceId>2004</serviceId>
+									<Name>500 National Minutes Bundle Business</Name>
+									<Operation>ADD</Operation>
+								</Service>
+							</ProductFeatures>
+						</ProductInfo>
+					</GSMAccount>
+				</GSMAccounts>
+				<DATAACCOUNTS />
+				<Devices>
+					<Device>
+						<IMEI />
+					</Device>
+				</Devices>
+				<Promotions>
+					<Name />
+				</Promotions>
+			</ServiceAccount>
+		</ServiceAccounts>
+		<Devices>
+			<Device>
+				<IMEI />
+			</Device>
+		</Devices>
+		<Promotions>
+			<Name />
+		</Promotions>
+	</Order-Info>
+</MOBILY_BSL_SR>

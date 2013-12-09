@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MOBILY_BSL_SR>
+	<SR_HEADER>
+		<FuncId>SUPPLEMENTARY_SERVICE</FuncId>
+		<SecurityKey>0000</SecurityKey>
+		<MsgVersion>0000</MsgVersion>
+		<RequestorChannelId>USSD</RequestorChannelId>
+		<SrDate>20130331124037</SrDate>
+		<RequestorUserId>966543775945</RequestorUserId>
+		<RequestorLanguage>E</RequestorLanguage>
+		<Chargeable>Y</Chargeable>
+		<ChargeAmount>0.0</ChargeAmount>
+	</SR_HEADER>
+	<ServiceRequestId>SR_5349973463</ServiceRequestId>
+	<MSISDN>966543775945</MSISDN>
+	<CustomerType>2</CustomerType>
+	<PlanType/>
+	<SupplementaryService>MULTI_SIM</SupplementaryService>
+	<SubscriptionDate/>
+	<UnSubscriptionDate/>
+	<PackageType/>
+	<PackageId>1787</PackageId>
+	<Operation>MULTI_SIM_GPRS_SET</Operation>
+	<SubscriptionType>MONTHLY</SubscriptionType>
+	<Params>
+		<Param>
+			<Key>SIM_ID</Key>
+			<Value>3</Value>
+		</Param>
+		<Param>
+			<Key>IMSI</Key>
+			<Value>2724527348971</Value>
+		</Param>
+	</Params>
+</MOBILY_BSL_SR>
