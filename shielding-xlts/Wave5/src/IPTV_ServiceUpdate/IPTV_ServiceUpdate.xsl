@@ -25,12 +25,12 @@
 
 							<xsl:for-each select="//orderLineItem">
 								<xsl:choose>
-									<xsl:when test="productName = 'FTTH' and actionCode = 'UPDATE'">
+									<xsl:when test="productName = 'FTTH' and (actionCode = 'UPDATE' or actionCode = 'Update')">
 										<ContractCompositeMBObj>
 											<TCRMContractBObj>
 												<TCRMExtension>
 													<ExtendedObject>XContractBObjExt</ExtendedObject>
-													<xsl:if test="orderLineItem/productName = 'CPE' and orderLineItem/actionCode = 'UPDATE'">
+													<xsl:if test="orderLineItem/productName = 'CPE' and (orderLineItem/actionCode = 'UPDATE' or orderLineItem/actionCode = 'Update')">
 													<XContractBObjExt>
 														<xsl:for-each select="orderLineItem/currentAttributes/attribute">
 																<xsl:if test="name = 'SN' and value and value!=''">
@@ -261,7 +261,7 @@
 											</TCRMAdminContEquivBObj>
 										</ContractCompositeMBObj>
 									</xsl:when>
-									<xsl:when test="productName = 'IPTV' and actionCode = 'DELETE'">
+									<xsl:when test="productName = 'IPTV' and (actionCode = 'DELETE' or actionCode = 'Delete')">
 											<ContractCompositeMBObj>
 												<TCRMContractBObj>
 													<AgreementStatusType>4</AgreementStatusType>
@@ -287,14 +287,14 @@
 												</TCRMContractBObj>
 											</ContractCompositeMBObj>
 									</xsl:when>
-									<xsl:when test="productName = 'IPTV' and actionCode = 'UPDATE'">
+									<xsl:when test="productName = 'IPTV' and (actionCode = 'UPDATE' or actionCode = 'Update')">
 											<ContractCompositeMBObj>
 											<TCRMContractBObj>
 												<TCRMExtension>
 													<ExtendedObject>XContractBObjExt</ExtendedObject>
 													<XContractBObjExt>
 													<xsl:for-each select="orderLineItem">
-													<xsl:if test="productName = 'STB' and actionCode = 'UPDATE'">
+													<xsl:if test="productName = 'STB' and (actionCode = 'UPDATE' or actionCode = 'Update')">
 														<xsl:for-each select="currentAttributes/attribute">
 																		<xsl:if test="name = 'SN' and value and value!=''">
 																			<DeviceSerialNumber>
@@ -383,7 +383,7 @@
 											<xsl:when test="productName = 'Channels'">
 											<ProductContractRelationshipCompositeBObj>
 												<TCRMProductContractRelationshipBObj>
-												<xsl:if test="actionCode = 'DELETE'">
+												<xsl:if test="actionCode = 'DELETE' or actionCode = 'Delete'">
 												<EndDate>
 												<xsl:call-template name="formatDate">
 														<xsl:with-param name="str"
