@@ -162,7 +162,7 @@
 										</ProductContractRelationshipCompositeBObj>
 										</xsl:if>
 										</xsl:for-each>
-										<xsl:for-each select="GSMAccounts/GSMAccount/ProductInfo/ProductFeatures/Service[serviceId='3041']">
+										<xsl:for-each select="GSMAccounts/GSMAccount/ProductInfo/ProductFeatures/Service[serviceId='1041']">
 										<xsl:if test="position()=1">
 										<ProductContractRelationshipCompositeBObj>
 											<TCRMProductContractRelationshipBObj>
@@ -187,7 +187,7 @@
 										</xsl:if>
 										</xsl:for-each>
 									<xsl:for-each select="GSMAccounts/GSMAccount/ProductInfo/ProductFeatures/Service">
-										<xsl:if test="serviceId and serviceId!='3041' and serviceId!='3016'">
+										<xsl:if test="serviceId and serviceId!='1041' and serviceId!='3016'">
 										<ProductContractRelationshipCompositeBObj>
 											<TCRMProductContractRelationshipBObj>
 													<StartDate>
@@ -211,7 +211,7 @@
 										</xsl:if>
 										</xsl:for-each>
 										
-										<xsl:for-each select="GSMAccounts/GSMAccount/ProductInfo/ProductFeatures/Service[serviceId='3041']">
+										<xsl:for-each select="GSMAccounts/GSMAccount/ProductInfo/ProductFeatures/Service[serviceId='1041']">
 										<ContractValueCompositeBObj>				
 										<TCRMContractValueBObj>
 										<xsl:for-each select="Attribute">  
