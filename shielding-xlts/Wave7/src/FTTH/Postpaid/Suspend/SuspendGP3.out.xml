@@ -2,11 +2,11 @@
 <TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<RequestControl>
-		<requestID>448954088</requestID>
+		<requestID>852941302</requestID>
 		<DWLControl>
-			<requesterName>IPTVUatSuspend</requesterName>
+			<requesterName>FTTHSuspend</requesterName>
 			<requesterLanguage>100</requesterLanguage>
-			<clientSystemName>BROKER</clientSystemName>
+			<clientSystemName>CC</clientSystemName>
 		</DWLControl>
 	</RequestControl>
 	<TCRMTx>
@@ -16,7 +16,7 @@
 			<ContractCompositeBObj>
 				<ContractCompositeMBObj>
 					<TCRMContractBObj>
-						<AgreementStatusType>8</AgreementStatusType>
+						<AgreementStatusType>6</AgreementStatusType>
 						<TCRMExtension>
 							<ExtendedObject>XContractBObjExt</ExtendedObject>
 							<XContractBObjExt>
@@ -27,7 +27,7 @@
 							<ContractStatusType>8</ContractStatusType>
 						</TCRMContractComponentBObj>
 						<TCRMAdminNativeKeyBObj>
-							<AdminContractId>1000113363648270</AdminContractId>
+							<AdminContractId>1000113549579815</AdminContractId>
 							<AdminFieldNameType>8</AdminFieldNameType>
 						</TCRMAdminNativeKeyBObj>
 					</TCRMContractBObj>

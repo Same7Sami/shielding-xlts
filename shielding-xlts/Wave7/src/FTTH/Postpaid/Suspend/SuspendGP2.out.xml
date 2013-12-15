@@ -16,6 +16,7 @@
 			<ContractCompositeBObj>
 				<ContractCompositeMBObj>
 					<TCRMContractBObj>
+						<AgreementStatusType>12</AgreementStatusType>
 						<TCRMExtension>
 							<ExtendedObject>XContractBObjExt</ExtendedObject>
 							<XContractBObjExt />
@@ -25,13 +26,6 @@
 							<AdminFieldNameType>8</AdminFieldNameType>
 						</TCRMAdminNativeKeyBObj>
 					</TCRMContractBObj>
-					<ContractValueCompositeBObj>
-						<TCRMContractValueBObj>
-							<ContractValueType>31</ContractValueType>
-							<Attribute1Type>96</Attribute1Type>
-							<Attribute1String>1 MB</Attribute1String>
-						</TCRMContractValueBObj>
-					</ContractValueCompositeBObj>
 				</ContractCompositeMBObj>
 			</ContractCompositeBObj>
 		</TCRMObject>
