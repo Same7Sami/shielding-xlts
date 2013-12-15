@@ -15,7 +15,7 @@
 					<requesterName>FTTHBlock</requesterName>
 					<requesterLanguage>100</requesterLanguage>
 					<clientSystemName>
-					<xsl:value-of select="//SR_HEADER/RequestorChannelId"/>
+						<xsl:value-of select="//SR_HEADER/RequestorChannelId"/>
 					</clientSystemName>
 				</DWLControl>
 			</RequestControl>
@@ -30,9 +30,10 @@
 								<xsl:when test="name = 'GracePeriod' and value = '2'">
 									<ContractCompositeMBObj>
 										<TCRMContractBObj>
+											<AgreementStatusType>12</AgreementStatusType>
 											<TCRMExtension>
 												<ExtendedObject>XContractBObjExt</ExtendedObject>
-												<XContractBObjExt></XContractBObjExt>
+												<XContractBObjExt/>
 											</TCRMExtension>
 											<TCRMAdminNativeKeyBObj>
 												<AdminContractId>
@@ -40,18 +41,7 @@
 												</AdminContractId>
 												<AdminFieldNameType>8</AdminFieldNameType>
 											</TCRMAdminNativeKeyBObj>
-										</TCRMContractBObj>
-										<ContractValueCompositeBObj>
-											<TCRMContractValueBObj>
-												<ContractValueType>31</ContractValueType>
-												<xsl:for-each select="//orderLineItem/currentAttributes/attribute">
-													<xsl:if test="name = 'GracePeriod' and value = '2'">
-														<Attribute1Type>96</Attribute1Type>
-														<Attribute1String>1 MB</Attribute1String>
-													</xsl:if>
-												</xsl:for-each>
-											</TCRMContractValueBObj>
-										</ContractValueCompositeBObj>
+										</TCRMContractBObj>										
 									</ContractCompositeMBObj>
 								</xsl:when>
 								<xsl:when test="name = 'GracePeriod' and value = '3'">
@@ -111,7 +101,9 @@
 			<xsl:variable name="hour" select="substring($str,9,2)" />
 			<xsl:variable name="min" select="substring($str,11,2)" />
 			<xsl:variable name="sec" select="substring($str,13,2)" />
-			<xsl:value-of select="$year" />-<xsl:value-of select="$month" />-<xsl:value-of select="$day" /><xsl:text> </xsl:text><xsl:value-of select="$hour" />:<xsl:value-of select="$min" />:<xsl:value-of select="$sec" />.000000</xsl:if>
+			<xsl:value-of select="$year" />-<xsl:value-of select="$month" />-<xsl:value-of select="$day" />
+			<xsl:text/>
+			<xsl:value-of select="$hour" />:<xsl:value-of select="$min" />:<xsl:value-of select="$sec" />.000000</xsl:if>
 	</xsl:template>
 
 </xsl:stylesheet>

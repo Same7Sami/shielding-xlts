@@ -30,6 +30,7 @@
 								<xsl:when test="name = 'GracePeriod' and value = '2'">
 									<ContractCompositeMBObj>
 										<TCRMContractBObj>
+										<AgreementStatusType>12</AgreementStatusType>
 											<TCRMExtension>
 												<ExtendedObject>XContractBObjExt</ExtendedObject>
 												<XContractBObjExt></XContractBObjExt>
@@ -40,18 +41,7 @@
 												</AdminContractId>
 												<AdminFieldNameType>8</AdminFieldNameType>
 											</TCRMAdminNativeKeyBObj>
-										</TCRMContractBObj>
-										<ContractValueCompositeBObj>
-											<TCRMContractValueBObj>
-												<ContractValueType>31</ContractValueType>
-												<xsl:for-each select="//orderLineItem/currentAttributes/attribute">
-													<xsl:if test="name = 'GracePeriod' and value = '2'">
-														<Attribute1Type>96</Attribute1Type>
-														<Attribute1String>1 MB</Attribute1String>
-													</xsl:if>
-												</xsl:for-each>
-											</TCRMContractValueBObj>
-										</ContractValueCompositeBObj>
+										</TCRMContractBObj>										
 									</ContractCompositeMBObj>
 								</xsl:when>
 								<xsl:when test="name = 'GracePeriod' and value = '3'">

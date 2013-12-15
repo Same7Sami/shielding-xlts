@@ -27,7 +27,7 @@
 				<ContractCompositeBObj>
 				<ContractCompositeMBObj>
 							<TCRMContractBObj>
-								<AgreementStatusType>6</AgreementStatusType>
+								<AgreementStatusType>8</AgreementStatusType>
 								<TCRMExtension>
 									<ExtendedObject>XContractBObjExt</ExtendedObject>
 									<XContractBObjExt>
