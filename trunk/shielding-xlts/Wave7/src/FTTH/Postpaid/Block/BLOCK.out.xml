@@ -16,18 +16,13 @@
 			<ContractCompositeBObj>
 				<ContractCompositeMBObj>
 					<TCRMContractBObj>
-						<AgreementStatusType>6</AgreementStatusType>
+						<AgreementStatusType>12</AgreementStatusType>
 						<TCRMExtension>
 							<ExtendedObject>XContractBObjExt</ExtendedObject>
-							<XContractBObjExt>
-								<NetworkStatusType>5</NetworkStatusType>
-							</XContractBObjExt>
+							<XContractBObjExt />
 						</TCRMExtension>
-						<TCRMContractComponentBObj>
-							<ContractStatusType>8</ContractStatusType>
-						</TCRMContractComponentBObj>
 						<TCRMAdminNativeKeyBObj>
-							<AdminContractId>1000113549716132</AdminContractId>
+							<AdminContractId>1000110818020300</AdminContractId>
 							<AdminFieldNameType>8</AdminFieldNameType>
 						</TCRMAdminNativeKeyBObj>
 					</TCRMContractBObj>
