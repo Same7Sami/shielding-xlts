@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>20131006164039</requestID>
+		<DWLControl>
+			<requesterName>IPTVServiceUpdate</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>addContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<ContractLangType>1100</ContractLangType>
+						<CurrencyType>14</CurrencyType>
+						<SignedDate>2013-10-06 16:40:39.000000</SignedDate>
+						<AgreementStatusType>5</AgreementStatusType>
+						<AgreementType>6</AgreementType>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<UserCreatedRecord>PF101707</UserCreatedRecord>
+								<CreatedDealerId>111111</CreatedDealerId>
+								<CreatedShopId>111111</CreatedShopId>
+								<SrviceBillingIndicator>S</SrviceBillingIndicator>
+								<DeviceSerialNumber>QAELIFE061013003</DeviceSerialNumber>
+								<PayType>1</PayType>
+								<NetworkStatusType>1</NetworkStatusType>
+								<CPEMacAddress>0E3F06102013</CPEMacAddress>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>7</ContractStatusType>
+						</TCRMContractComponentBObj>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>1014243245396</AdminContractId>
+							<AdminFieldNameType>10</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+					<ContractRelationshipCompositeBObj>
+						<TCRMContractRelationshipBObj>
+							<RelationshipType>15</RelationshipType>
+							<RelationshipValue>Reference Account</RelationshipValue>
+							<RelationshipStatusType>1</RelationshipStatusType>
+							<TCRMExtension>
+								<ExtendedObject>XContractRelationshipBObjExt
+														</ExtendedObject>
+								<XContractRelationshipBObjExt />
+							</TCRMExtension>
+							<TCRMAdminNativeKeyBObj>
+								<AdminContractId>1000114242885185</AdminContractId>
+								<AdminFieldNameType>8</AdminFieldNameType>
+							</TCRMAdminNativeKeyBObj>
+						</TCRMContractRelationshipBObj>
+					</ContractRelationshipCompositeBObj>
+					<ProductContractRelationshipCompositeBObj>
+						<TCRMProductContractRelationshipBObj>
+							<ProductContractRelationshipType>1
+							</ProductContractRelationshipType>
+							<TCRMExtension>
+								<ExtendedObject>XProductContractRelationshipBObjExt
+								</ExtendedObject>
+								<XProductContractRelationshipBObjExt />
+							</TCRMExtension>
+						</TCRMProductContractRelationshipBObj>
+						<ProductAdminSysKeyBObj>
+							<AdminSystemType>1</AdminSystemType>
+							<ProductAdminSysKeyPartOne>1231</ProductAdminSysKeyPartOne>
+						</ProductAdminSysKeyBObj>
+					</ProductContractRelationshipCompositeBObj>
+					<TCRMAdminContEquivBObj>
+						<AdminPartyId />
+						<AdminSystemType>1</AdminSystemType>
+					</TCRMAdminContEquivBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
+</TCRMService>

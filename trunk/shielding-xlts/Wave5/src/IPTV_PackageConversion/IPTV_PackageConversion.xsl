@@ -259,7 +259,7 @@
 											</xsl:for-each>
 											<TCRMAdminContEquivBObj>
 												<AdminPartyId>
-												<xsl:value-of select="//orderContact/CustomerAccountNumber"/>
+												<xsl:value-of select="//CustomerAccountNumber"/>
 												</AdminPartyId>
 												<AdminSystemType>1</AdminSystemType>
 											</TCRMAdminContEquivBObj>
