@@ -7,14 +7,14 @@
 			<RequestControl>
 				<requestID>
 					<xsl:call-template name="recurse-over-string">
-						<xsl:with-param name="str" select="//Mobily-Order/Order-Header/OrderSubmitDate" />
+						<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
 					</xsl:call-template>
 				</requestID>
 				<DWLControl>
 					<requesterName>Raqi2PckgConv</requesterName>
 					<requesterLanguage>100</requesterLanguage>
 					<clientSystemName>
-						<xsl:value-of select="//Mobily-Order/Order-Header/RequestorChannelId"></xsl:value-of>
+						<xsl:value-of select="//MOBILY_BSL_SR/SR_HEADER/RequestorChannelId"></xsl:value-of>
 					</clientSystemName>
 				</DWLControl>
 			</RequestControl>
@@ -83,7 +83,7 @@
 										<TCRMProductContractRelationshipBObj>
 												<EndDate>
 													<xsl:call-template name="formatDate">
-														<xsl:with-param name="str" select="//Mobily-Order/Order-Header/OrderSubmitDate" />
+														<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
 													</xsl:call-template>
 												</EndDate>
 											<ProductContractRelationshipType>1</ProductContractRelationshipType>
@@ -103,6 +103,67 @@
 						</xsl:if> 
 						
 						<xsl:if test="Operation = 'PACKAGE_CONVERSION' and Type = 'NEW'">
+						
+						<!--  Billing Account Creation / Updating -->		
+						<ContractCompositeMBObj>
+							<TCRMContractBObj>
+								<!-- LanguagePreference Mapping needed-->
+								<xsl:if test="//LanguagePreference ='English'">
+								<ContractLangType>100</ContractLangType>
+								</xsl:if>
+								<xsl:if test="//LanguagePreference ='Arabic'">
+								<ContractLangType>1100</ContractLangType>
+								</xsl:if>
+								<CurrencyType>14</CurrencyType>
+								<SignedDate><xsl:call-template name="formatDate">
+														<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
+											</xsl:call-template>
+								</SignedDate>
+								<ExecutedDate><xsl:call-template name="formatDate">
+														<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
+											</xsl:call-template>
+								</ExecutedDate>
+								<AgreementStatusType>5</AgreementStatusType>
+								<TCRMExtension>
+									<ExtendedObject>XContractBObjExt</ExtendedObject>
+									<XContractBObjExt>
+										<UserCreatedRecord>
+										<xsl:value-of select="//AgentId"></xsl:value-of>
+										</UserCreatedRecord>
+										<CreatedDealerId>
+										<xsl:value-of select="//DealerId"></xsl:value-of>
+										</CreatedDealerId>
+										<CreatedShopId>
+										<xsl:value-of select="//ShopId"></xsl:value-of>
+										</CreatedShopId>
+										<SrviceBillingIndicator>B</SrviceBillingIndicator>
+										<xsl:choose>
+											<xsl:when test="ParentAccountNumber = //MOBILY_BSL_SR/Order-Info/Departments/MasterBillingAccount">
+												<MasterBillingAccountIndicator>Y</MasterBillingAccountIndicator>																						
+											</xsl:when>
+											<xsl:otherwise>
+												<MasterBillingAccountIndicator>N</MasterBillingAccountIndicator>
+											</xsl:otherwise>
+										</xsl:choose>
+									</XContractBObjExt>
+								</TCRMExtension>
+								<TCRMContractComponentBObj>
+									<ContractStatusType>7</ContractStatusType>
+								</TCRMContractComponentBObj>
+								<TCRMAdminNativeKeyBObj>
+									<AdminContractId>
+									<xsl:value-of select="ParentAccountNumber"></xsl:value-of>
+									</AdminContractId>
+									<AdminFieldNameType>9</AdminFieldNameType>
+								</TCRMAdminNativeKeyBObj>
+							</TCRMContractBObj>
+							<TCRMAdminContEquivBObj>
+								<!-- need to have CustomerAccountNo -->	
+								<AdminPartyId></AdminPartyId>
+								<AdminSystemType>1</AdminSystemType>
+							</TCRMAdminContEquivBObj>
+						</ContractCompositeMBObj>
+						
 						<ContractCompositeMBObj>
 							<TCRMContractBObj>
 								<TCRMExtension>
@@ -121,7 +182,7 @@
 										<TCRMProductContractRelationshipBObj>
 												<StartDate>
 													<xsl:call-template name="formatDate">
-														<xsl:with-param name="str" select="//Mobily-Order/Order-Header/OrderSubmitDate" />
+														<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
 													</xsl:call-template>
 												</StartDate>
 											<ProductContractRelationshipType>1</ProductContractRelationshipType>
@@ -144,7 +205,7 @@
 											<TCRMProductContractRelationshipBObj>
 													<StartDate>
 														<xsl:call-template name="formatDate">
-															<xsl:with-param name="str" select="//Mobily-Order/Order-Header/OrderSubmitDate" />
+															<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
 														</xsl:call-template>
 													</StartDate>
 												<ProductContractRelationshipType>2</ProductContractRelationshipType>
@@ -168,7 +229,7 @@
 											<TCRMProductContractRelationshipBObj>
 													<StartDate>
 														<xsl:call-template name="formatDate">
-															<xsl:with-param name="str" select="//Mobily-Order/Order-Header/OrderSubmitDate" />
+															<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
 														</xsl:call-template>
 													</StartDate>
 												<ProductContractRelationshipType>2</ProductContractRelationshipType>
@@ -192,7 +253,7 @@
 											<TCRMProductContractRelationshipBObj>
 													<StartDate>
 														<xsl:call-template name="formatDate">
-															<xsl:with-param name="str" select="//Mobily-Order/Order-Header/OrderSubmitDate" />
+															<xsl:with-param name="str" select="//MOBILY_BSL_SR/SR_HEADER/OrderSubmitDate" />
 														</xsl:call-template>
 													</StartDate>
 												<ProductContractRelationshipType>2</ProductContractRelationshipType>

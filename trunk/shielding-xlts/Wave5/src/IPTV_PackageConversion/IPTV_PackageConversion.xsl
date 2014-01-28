@@ -10,7 +10,7 @@
 					<xsl:value-of select="//SR_HEADER/OrderCreationDate" />
 				</requestID>
 				<DWLControl>
-					<requesterName>IPTVPackageConversion</requesterName>
+					<requesterName>IPTVPackConv</requesterName>
 					<requesterLanguage>100</requesterLanguage>
 					<clientSystemName>
 					<xsl:value-of select="//SR_HEADER/RequestorChannelId"/>
