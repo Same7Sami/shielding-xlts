@@ -243,6 +243,14 @@
 											<Attribute5String>N</Attribute5String>
 										</xsl:if>
 										<xsl:for-each select="//Params/Param">
+											<xsl:if test="Value and Value!='' and (Key = 'BLACKBERRY') and (//Operation = 'MULTI_SIM_SWAP')">
+												<Attribute6Type>111</Attribute6Type>
+												<Attribute6String>
+												<xsl:value-of select="Value"/>
+												</Attribute6String>
+											</xsl:if>
+										</xsl:for-each>
+										<xsl:for-each select="//Params/Param">
 											<xsl:if test="Key = 'SERVICE_GROUP'">
 													<xsl:if test="Value = 'BLACKBERRY'">
 														<Attribute6Type>111</Attribute6Type>
