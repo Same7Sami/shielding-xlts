@@ -15,11 +15,11 @@
 	<MSISDN>966565892046</MSISDN>
 	<CustomerType>2</CustomerType>
 	<PlanType/>
-	<SupplementaryService>SAFE_ARRIVAL</SupplementaryService>
+	<SupplementaryService>FALLAH1_ADDON</SupplementaryService>
 	<SubscriptionDate>20121002124425</SubscriptionDate>
 	<UnSubscriptionDate>20121013114435</UnSubscriptionDate>
 	<PackageType/>
 	<PackageId>1353</PackageId>
-	<Operation>SAFE_ARRIVAL_UNSUB</Operation>
+	<Operation>FALLAH1_ADDON_unsubscribe</Operation>
 	<SubscriptionType>MONTHLY</SubscriptionType>
 </MOBILY_BSL_SR>
