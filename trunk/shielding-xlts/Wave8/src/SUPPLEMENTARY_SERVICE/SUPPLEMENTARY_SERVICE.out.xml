@@ -30,13 +30,12 @@
 												</ExtendedObject>
 								<XProductContractRelationshipBObjExt>
 									<AgreementStatusType>4</AgreementStatusType>
-									<ServiceType />
 								</XProductContractRelationshipBObjExt>
 							</TCRMExtension>
 						</TCRMProductContractRelationshipBObj>
 						<ProductAdminSysKeyBObj>
 							<AdminSystemType>15</AdminSystemType>
-							<ProductAdminSysKeyPartOne>SAFE_ARRIVAL</ProductAdminSysKeyPartOne>
+							<ProductAdminSysKeyPartOne>FALLAH1_ADDON</ProductAdminSysKeyPartOne>
 						</ProductAdminSysKeyBObj>
 					</ProductContractRelationshipCompositeBObj>
 					<ContractSearchParamsBObj>
