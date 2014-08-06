@@ -86,12 +86,14 @@
 										</CreatedShopId>
 									</XContractBObjExt>
 								</TCRMExtension>
+								
 								<TCRMAdminNativeKeyBObj>
 									<AdminContractId>
-										<xsl:value-of select="//BillingNumber"/>
+										<xsl:value-of select="//ServiceAccountNumber" />
 									</AdminContractId>
 									<AdminFieldNameType>8</AdminFieldNameType>
 								</TCRMAdminNativeKeyBObj>
+								
 							</TCRMContractBObj>
 
 							<ProductContractRelationshipCompositeBObj>
@@ -140,6 +142,7 @@
 								</ProductAdminSysKeyBObj>
 							</ProductContractRelationshipCompositeBObj>
 
+							
 						</ContractCompositeMBObj>
 					</ContractCompositeBObj>
 				</TCRMObject>

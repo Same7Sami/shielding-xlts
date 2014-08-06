@@ -91,7 +91,7 @@
 								</TCRMExtension>
 								<TCRMAdminNativeKeyBObj>
 									<AdminContractId>
-										<xsl:value-of select="//BillingNumber"/>
+										<xsl:value-of select="//ServiceAccountNumber" />
 									</AdminContractId>
 									<AdminFieldNameType>8</AdminFieldNameType>
 								</TCRMAdminNativeKeyBObj>
