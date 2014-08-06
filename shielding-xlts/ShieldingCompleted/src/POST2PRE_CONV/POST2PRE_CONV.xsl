@@ -88,6 +88,13 @@
 									</XContractBObjExt>
 								</TCRMExtension>
 								
+								<TCRMAdminNativeKeyBObj>
+									<AdminContractId>
+										<xsl:value-of select="//AccountNumber" />
+									</AdminContractId>
+									<AdminFieldNameType>8</AdminFieldNameType>
+								</TCRMAdminNativeKeyBObj>
+								
 							</TCRMContractBObj>
 							
 
@@ -156,9 +163,6 @@
 						</TCRMContractValueBObj>											
 					</ContractValueCompositeBObj>
 					
-							<ContractSearchParamsBObj>
-                    			<MSISDN><xsl:value-of select="//MSISDN"/></MSISDN>
-                 			</ContractSearchParamsBObj>
                  			
 						</ContractCompositeMBObj>
 					</ContractCompositeBObj>

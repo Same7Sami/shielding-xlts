@@ -88,6 +88,13 @@
 									</XContractBObjExt>
 								</TCRMExtension>
 								
+								<TCRMAdminNativeKeyBObj>
+									<AdminContractId>
+										<xsl:value-of select="//AccountNumber" />
+									</AdminContractId>
+									<AdminFieldNameType>8</AdminFieldNameType>
+								</TCRMAdminNativeKeyBObj>
+								
 							</TCRMContractBObj>
 							
 
@@ -108,7 +115,7 @@
 								<ProductAdminSysKeyBObj>
 									<AdminSystemType>21</AdminSystemType>
 									<ProductAdminSysKeyPartOne>
-										<xsl:value-of select="//Old_PackageID"/>
+										<xsl:value-of select="//OldPackageId"/>
 									</ProductAdminSysKeyPartOne>
 								</ProductAdminSysKeyBObj>
 							</ProductContractRelationshipCompositeBObj>
@@ -132,7 +139,7 @@
 								<ProductAdminSysKeyBObj>
 									<AdminSystemType>21</AdminSystemType>
 									<ProductAdminSysKeyPartOne>
-										<xsl:value-of select="//New_PackageID"/>
+										<xsl:value-of select="//NewPackageId"/>
 									</ProductAdminSysKeyPartOne>
 								</ProductAdminSysKeyBObj>
 							</ProductContractRelationshipCompositeBObj>
@@ -155,10 +162,6 @@
 							</Attribute0String>
 						</TCRMContractValueBObj>											
 					</ContractValueCompositeBObj>
-					
-							<ContractSearchParamsBObj>
-                    			<MSISDN><xsl:value-of select="//MSISDN"/></MSISDN>
-                 			</ContractSearchParamsBObj>
                  			
 						</ContractCompositeMBObj>
 					</ContractCompositeBObj>
