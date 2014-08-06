@@ -36,34 +36,7 @@
 
 				</requestID>
 				<DWLControl>
-					<requesterName>
-						<xsl:choose>
-							<xsl:when
-								test="not(//SR_HEADER/RequestorUserId) or //SR_HEADER/RequestorUserId = ''">
-								<xsl:choose>
-									<xsl:when
-										test="not(//SR_HEADER/AgentId) or //SR_HEADER/AgentId = ''">
-
-										<xsl:choose>
-											<xsl:when test="not(//AGENTID) or //AGENTID = ''">
-												<xsl:value-of select="//FuncId"/>
-											</xsl:when>
-											<xsl:otherwise>
-												<xsl:value-of select="//AGENTID"/>
-											</xsl:otherwise>
-										</xsl:choose>
-
-									</xsl:when>
-									<xsl:otherwise>
-										<xsl:value-of select="//SR_HEADER/AgentId"/>
-									</xsl:otherwise>
-								</xsl:choose>
-							</xsl:when>
-							<xsl:otherwise>
-								<xsl:value-of select="//SR_HEADER/RequestorUserId"/>
-							</xsl:otherwise>
-						</xsl:choose>
-					</requesterName>
+					<requesterName>ShieldingPkgConv</requesterName>
 					<xsl:choose>
 						<xsl:when
 							test="//SR_HEADER/RequestorLanguage = 'A'">
