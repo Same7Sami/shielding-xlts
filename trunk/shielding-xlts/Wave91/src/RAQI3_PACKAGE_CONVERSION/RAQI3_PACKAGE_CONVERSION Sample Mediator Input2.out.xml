@@ -28,8 +28,7 @@
 					<ProductContractRelationshipCompositeBObj>
 						<TCRMProductContractRelationshipBObj>
 							<EndDate>2013-08-21 16:31:36.000000</EndDate>
-							<ProductContractRelationshipType>1
-							</ProductContractRelationshipType>
+							<ProductContractRelationshipType>1</ProductContractRelationshipType>
 							<TCRMExtension>
 								<ExtendedObject>XProductContractRelationshipBObjExt
 								</ExtendedObject>
