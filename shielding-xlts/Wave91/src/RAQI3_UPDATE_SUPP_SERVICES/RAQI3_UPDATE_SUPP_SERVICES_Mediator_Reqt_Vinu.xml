@@ -129,6 +129,10 @@
 									<Name>Additional SIM</Name>
 									<Operation>ADD</Operation>
 									<Attribute>
+										<Name>SIM_ID</Name>
+										<Value>3</Value>
+									</Attribute>
+									<Attribute>
 										<Name>SIM</Name>
 										<Value>8996631000000051018</Value>
 									</Attribute>
@@ -156,7 +160,11 @@
 								<Service>
 									<serviceId>3041</serviceId>
 									<Name>Additional SIM</Name>
-									<Operation>ADD</Operation>
+									<Operation>DELETE</Operation>
+									<Attribute>
+										<Name>SIM_ID</Name>
+										<Value>4</Value>
+									</Attribute>
 									<Attribute>
 										<Name>SIM</Name>
 										<Value>8996631000000051019</Value>
