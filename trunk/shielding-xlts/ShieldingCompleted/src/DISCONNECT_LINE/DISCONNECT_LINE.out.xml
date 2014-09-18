@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<RequestControl>
-<requestID>3410515163</requestID>
-<DWLControl>
-<requesterName>PF103222</requesterName>
-<requesterLanguage>100</requesterLanguage>
-<requestTime>2011-10-27 16:30:22.000000</requestTime>
-<clientSystemName>BSL</clientSystemName>
-</DWLControl>
-</RequestControl>
-<TCRMTx>
-<TCRMTxType>updateContractComposite</TCRMTxType>
-<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
-<TCRMObject>
-<ContractCompositeBObj>
-<ContractCompositeMBObj>
-<TCRMContractBObj>
-<EndDate>2011-10-27 16:30:22.000000</EndDate>
-<AgreementStatusType>4</AgreementStatusType>
-<TCRMExtension>
-<ExtendedObject>XContractBObjExt</ExtendedObject>
-<XContractBObjExt>
-<CreatedDealerId>050144</CreatedDealerId>
-<CreatedShopId>050144</CreatedShopId>
-<NetworkStatusType>6</NetworkStatusType>
-</XContractBObjExt>
-</TCRMExtension>
-<TCRMContractComponentBObj>
-<ContractStatusType>6</ContractStatusType>
-</TCRMContractComponentBObj>
-</TCRMContractBObj>
-<ContractSearchParamsBObj>
-<MSISDN>966542042283</MSISDN>
-</ContractSearchParamsBObj>
-</ContractCompositeMBObj>
-</ContractCompositeBObj>
-</TCRMObject>
-</TCRMTx>
+	<RequestControl>
+		<requestID>3410515163</requestID>
+		<DWLControl>
+			<requesterName>ShieldingDeactivate</requesterName>
+			<requesterLanguage>100</requesterLanguage>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<EndDate>2014-08-31 16:30:22.000000</EndDate>
+						<AgreementStatusType>4</AgreementStatusType>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<CreatedDealerId>050144</CreatedDealerId>
+								<CreatedShopId>050144</CreatedShopId>
+								<NetworkStatusType>6</NetworkStatusType>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMContractComponentBObj>
+							<ContractStatusType>6</ContractStatusType>
+						</TCRMContractComponentBObj>
+					</TCRMContractBObj>
+					<ContractSearchParamsBObj>
+						<MSISDN>966542901569</MSISDN>
+					</ContractSearchParamsBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
 </TCRMService>
