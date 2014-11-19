@@ -1,25 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <MOBILY_BSL_SR>
 	<SR_HEADER>
 		<FuncId>SUPPLEMENTARY_SERVICE</FuncId>
 		<SecurityKey>0000</SecurityKey>
-		<MsgVersion>0001</MsgVersion>
+		<MsgVersion>0000</MsgVersion>
 		<RequestorChannelId>SIEBEL</RequestorChannelId>
-		<SrDate>20121013114435</SrDate>
-		<RequestorUserId>MIT50001</RequestorUserId>
+		<SrDate>20140616090033</SrDate>
+		<RequestorUserId>SADMIN</RequestorUserId>
 		<RequestorLanguage>E</RequestorLanguage>
 		<Chargeable>Y</Chargeable>
 		<ChargeAmount>0.0</ChargeAmount>
 	</SR_HEADER>
-	<ServiceRequestId>SR_32663068</ServiceRequestId>
-	<MSISDN>966565892046</MSISDN>
+	<ServiceRequestId>SR_1125288520</ServiceRequestId>
+	<MSISDN>966568266747</MSISDN>
 	<CustomerType>2</CustomerType>
 	<PlanType/>
-	<SupplementaryService>FALLAH1_ADDON</SupplementaryService>
-	<SubscriptionDate>20121002124425</SubscriptionDate>
-	<UnSubscriptionDate>20121013114435</UnSubscriptionDate>
+	<SupplementaryService>BC_GE_DAWLI_T</SupplementaryService>
+	<SubscriptionDate>20140616090033</SubscriptionDate>
+	<UnSubscriptionDate/>
 	<PackageType/>
-	<PackageId>1353</PackageId>
-	<Operation>FALLAH1_ADDON_unsubscribe</Operation>
+	<PackageId>1908</PackageId>
+	<Operation>BC_GE_DAWLI_T_subscribe</Operation>
 	<SubscriptionType>MONTHLY</SubscriptionType>
+	<ReasonCode>1</ReasonCode>
+	<Params>
+		<Param>
+			<Key>DiscountedValue</Key>
+			<Value>0</Value>
+		</Param>
+		<Param>
+			<Key>TargetPackageId</Key>
+			<Value>1908</Value>
+		</Param>
+		<Param>
+			<Key>QTY</Key>
+			<Value>1</Value>
+		</Param>
+		<Param>
+			<Key>PLAN_CATEGORY</Key>
+			<Value>2</Value>
+		</Param>
+		<Param>
+			<Key>DiscountPercentage</Key>
+			<Value>0</Value>
+		</Param>
+	</Params>
 </MOBILY_BSL_SR>
