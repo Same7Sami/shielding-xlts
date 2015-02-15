@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<RequestControl>
-<requestID>3312532794</requestID>
-<DWLControl>
-<requesterName>CL0306</requesterName>
-<requesterLanguage>100</requesterLanguage>
-<requestTime>2011-10-01 00:10:29.000000</requestTime>
-<clientSystemName>SIEBEL</clientSystemName>
-</DWLControl>
-</RequestControl>
-<TCRMTx>
-<TCRMTxType>updateContractComposite</TCRMTxType>
-<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
-<TCRMObject>
-<ContractCompositeBObj>
-<ContractCompositeMBObj>
-<TCRMContractBObj>
-<TCRMExtension>
-<ExtendedObject>XContractBObjExt</ExtendedObject>
-<XContractBObjExt>
-<CreatedDealerId/>
-<CreatedShopId/>
-<SIM>8996632310216445678</SIM>
-<PUK1>31527460</PUK1>
-<PUK2>34080186</PUK2>
-<IMSI>420032236445678</IMSI>
-</XContractBObjExt>
-</TCRMExtension>
-<TCRMAdminNativeKeyBObj>
-<AdminContractId>100018934988094</AdminContractId>
-<AdminFieldNameType>8</AdminFieldNameType>
-</TCRMAdminNativeKeyBObj>
-</TCRMContractBObj>
-</ContractCompositeMBObj>
-</ContractCompositeBObj>
-</TCRMObject>
-</TCRMTx>
+<TCRMService xsi:noNamespaceSchemaLocation="mobilyRequest.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestControl>
+		<requestID>3312532794</requestID>
+		<DWLControl>
+			<requesterName>SIMSwapSub</requesterName> <!--(old) ShieldingSwap  -->
+			<requesterLanguage>100</requesterLanguage>
+			<requestTime>2011-10-01 00:10:29.000000</requestTime>
+			<clientSystemName>SIEBEL</clientSystemName>
+		</DWLControl>
+	</RequestControl>
+	<TCRMTx>
+		<TCRMTxType>updateContractComposite</TCRMTxType>
+		<TCRMTxObject>ContractCompositeBObj</TCRMTxObject>
+		<TCRMObject>
+			<ContractCompositeBObj>
+				<ContractCompositeMBObj>
+					<TCRMContractBObj>
+						<TCRMExtension>
+							<ExtendedObject>XContractBObjExt</ExtendedObject>
+							<XContractBObjExt>
+								<CreatedDealerId />
+								<CreatedShopId />
+								<SIM>8996632310216445678</SIM>
+								<PUK1>31527460</PUK1>
+								<PUK2>34080186</PUK2>
+								<IMSI>420032236445678</IMSI>
+							</XContractBObjExt>
+						</TCRMExtension>
+						<TCRMAdminNativeKeyBObj>
+							<AdminContractId>100018934988094</AdminContractId>
+							<AdminFieldNameType>8</AdminFieldNameType>
+						</TCRMAdminNativeKeyBObj>
+					</TCRMContractBObj>
+				</ContractCompositeMBObj>
+			</ContractCompositeBObj>
+		</TCRMObject>
+	</TCRMTx>
 </TCRMService>
